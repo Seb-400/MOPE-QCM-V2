@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>QUIZ - Les stars de MOPE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>QUIZ - Les stars de MOPE</h1>
+
+    <div id="subject-selection" class="selection-block">
+      <h2>Bienvenue sur le QCM</h2>
+      <p class="instruction">Veuillez choisir une matière pour démarrer :</p>
+      <div class="selection-form">
+        <select id="subject-select">
+          <option value="">-- Choisissez une matière --</option>
+        </select>
+      </div>
+      <div class="selection-form">
+        <button id="start-btn">Commencer le quiz</button>
+      </div>
+    </div>
+
+    <div id="quiz-container" class="hidden">
+      <div id="question"></div>
+      <img id="question-image" src="" alt="" class="hidden" style="max-width:100%; margin:10px 0;">
+      <form id="answers-form"></form>
+      <button id="submit-btn">Valider</button>
+      <div id="feedback"></div>
+    </div>
+
+    <div id="result" class="hidden">
+      <h2>Résultat</h2>
+      <p id="score"></p>
+      <div id="recap"></div>
+      <p id="time"></p>
+      <button id="restart-btn">Recommencer</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
