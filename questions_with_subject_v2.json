@@ -1824,7 +1824,7 @@
     "subject": "ACAPA",
     "question": "Comment doivent être nettoyés les microphones au cabinet ?",
     "options": [
-      "Avec un fiux d’air à faible pression",
+      "Avec un flux d’air à faible pression",
       "Avec une pression d’air élevée",
       "Avec un spray alcoolisé directement",
       "Avec de l’eau chaude"
@@ -2756,7 +2756,7 @@
   { "subject": "NUMERISATION", "question": "Quel rôle joue l’intelligence artificielle dans la transformation numérique des entreprises?", "options": [ "Remplacer toutes les décisions humaines", "Supprimer la collecte de données", "Automatiser certaines tâches et améliorer l’analyse des données", "Limiter l’automatisation" ], "correctAnswers": [ 2 ], "image": "" },
   { "subject": "NUMERISATION", "question": "Dans un projet de transformation numérique, que signifie la notion de transformation organisationnelle?", "options": [ "Changer uniquement les logiciels utilisés", "Modifier uniquement le département informatique", "Adapter les structures, les processus et la culture de l’entreprise", "Réduire les activités de formation" ], "correctAnswers": [ 2 ], "image": "" },
   { "subject": "NUMERISATION", "question": "Quel facteur humain est déterminant pour réussir un projet de digitalisation?", "options": [ "Limitation de la communication interne", "Réduction de la formation", "Suppression du leadership", "Adhésion et compétences numériques des employés" ], "correctAnswers": [ 3 ], "image": "" },
-  { "subject": "NUMERISATION", "question": "Quel outil statistique permet d’observer la répartition d’un ensemble de données?", "options": [ "Tableau comptable", "Histogramme", "Diagramme de fiux", "Carte conceptuelle" ], "correctAnswers": [ 1 ], "image": "" },
+  { "subject": "NUMERISATION", "question": "Quel outil statistique permet d’observer la répartition d’un ensemble de données?", "options": [ "Tableau comptable", "Histogramme", "Diagramme de flux", "Carte conceptuelle" ], "correctAnswers": [ 1 ], "image": "" },
   { "subject": "NUMERISATION", "question": "Quel concept décrit la capacité d’un système informatique à s’adapter à une augmentation de la demande?", "options": [ "Interconnectivité", "Scalabilité", "Virtualisation", "Sécurité" ], "correctAnswers": [ 1 ], "image": "" },
   { "subject": "NUMERISATION", "question": "Dans le cadre d’une stratégie de transformation numérique, quel est l’objectif principal de la digitalisation d’une entreprise?", "options": [ "Supprimer les systèmes informatiques existants", "Limiter l’accès aux informations internes", "Améliorer les processus, la performance et la création de valeur grâce aux technologies numériques", "Remplacer totalement les employés par des machines" ], "correctAnswers": [ 2 ], "image": "" },
   { "subject": "NUMERISATION", "question": "Quelle technologie permet de stocker et d’accéder aux données via Internet sans infrastructure locale importante?", "options": [ "Cloud computing", "Intelligence artificielle", "Internet des objets", "Robotique industrielle" ], "correctAnswers": [ 0 ], "image": "" },
