@@ -32,7 +32,7 @@ const resetProgress = () => {
 };
 
 // --- CHARGEMENT ---
-fetch('./questions_with_subject_v2(2).json')
+fetch('./questions_with_subject_v2.json')
     .then(res => res.json())
     .then(data => {
         // Génération d'ID unique si absent
