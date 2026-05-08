@@ -51,7 +51,7 @@ const dom = {
 
 // --- CHARGEMENT DU JSON ---
 // Utilise le nom exact de ton fichier ici
-fetch('./questions_with_subject_v2(2).json')
+fetch('./questions_with_subject_v2.json')
     .then(res => res.json())
     .then(data => {
         // Création d'un ID unique basé sur le texte de la question pour le suivi
