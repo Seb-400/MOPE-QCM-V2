@@ -1,6 +1,6 @@
 /**
- * MOTEUR DE QUIZ - MOPE EXHAUSTIF
- * Gère le balayage de toutes les matières sans répétition des acquis.
+ * MOTEUR DE QUIZ - VARIANTE APPRENTISSAGE CONTINU
+ * Les erreurs ne sont pas enregistrées : la question revient tant qu'elle n'est pas réussie.
  */
 
 let allQuestions = [];
@@ -13,7 +13,7 @@ let currentShuffledOptions = [];
 
 const STORAGE_KEY = "mope_quiz_progress";
 
-// --- PERSISTANCE DES DONNÉES ---
+// --- GESTION DE LA PROGRESSION ---
 const getAnsweredIds = () => JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
 
 const saveSuccess = (id) => {
@@ -25,75 +25,55 @@ const saveSuccess = (id) => {
 };
 
 const resetProgress = () => {
-    if (confirm("Seb, veux-tu vraiment effacer ton historique de réussite et recommencer à zéro ?")) {
+    if (confirm("Réinitialiser tout l'historique ?")) {
         localStorage.removeItem(STORAGE_KEY);
         location.reload();
     }
 };
 
-// --- ÉLÉMENTS UI ---
-const dom = {
-    selection: document.getElementById("subject-selection"),
-    select: document.getElementById("subject-select"),
-    startBtn: document.getElementById("start-btn"),
-    quiz: document.getElementById("quiz-container"),
-    question: document.getElementById("question"),
-    form: document.getElementById("answers-form"),
-    submit: document.getElementById("submit-btn"),
-    feedback: document.getElementById("feedback"),
-    result: document.getElementById("result"),
-    score: document.getElementById("score"),
-    recap: document.getElementById("recap"),
-    time: document.getElementById("time"),
-    restart: document.getElementById("restart-btn"),
-    img: document.getElementById("question-image")
-};
-
-// --- CHARGEMENT DU JSON ---
-// Utilise le nom exact de ton fichier ici
-fetch('./questions_with_subject_v2.json')
+// --- CHARGEMENT ---
+fetch('./questions_with_subject_v2(2).json')
     .then(res => res.json())
     .then(data => {
-        // Création d'un ID unique basé sur le texte de la question pour le suivi
-        allQuestions = data.map(q => ({
+        // Génération d'ID unique si absent
+        allQuestions = data.map((q, index) => ({
             ...q,
-            id: btoa(unescape(encodeURIComponent(q.question))).substring(0, 32)
+            id: q.id || btoa(unescape(encodeURIComponent(q.question))).substring(0, 24)
         }));
         populateSubjects();
-    })
-    .catch(err => alert("Erreur de chargement du JSON : " + err));
+    });
 
 function populateSubjects() {
     const subjects = [...new Set(allQuestions.map(q => q.subject))];
     const answeredIds = getAnsweredIds();
+    const select = document.getElementById("subject-select");
     
-    dom.select.innerHTML = '<option value="">-- Choisissez une matière --</option>';
+    select.innerHTML = '<option value="">-- Choisissez une matière --</option>';
     subjects.forEach(sub => {
         const total = allQuestions.filter(q => q.subject === sub).length;
         const done = allQuestions.filter(q => q.subject === sub && answeredIds.includes(q.id)).length;
-        
         const opt = document.createElement("option");
         opt.value = sub;
-        opt.textContent = `${sub} (${done}/${total} maîtrisés)`;
-        dom.select.appendChild(opt);
+        opt.textContent = `${sub} (${done}/${total} validés)`;
+        select.appendChild(opt);
     });
 }
 
-// --- LOGIQUE DU JEU ---
-dom.startBtn.addEventListener("click", () => {
-    const sub = dom.select.value;
+// --- LANCEMENT DU QUIZ ---
+document.getElementById("start-btn").addEventListener("click", () => {
+    const sub = document.getElementById("subject-select").value;
     if (!sub) return;
 
     const answeredIds = getAnsweredIds();
-    // On ne prend QUE les questions qui ne sont pas dans le localStorage
+    // FILTRE CRUCIAL : On ne prend que ce qui n'est PAS encore réussi
     let available = allQuestions.filter(q => q.subject === sub && !answeredIds.includes(q.id));
 
     if (available.length === 0) {
-        alert("Félicitations ! Tu as balayé toutes les questions de cette matière.");
+        alert("Matière terminée ! Réinitialise pour recommencer.");
         return;
     }
 
-    // Mélange et sélection des 20 prochaines questions
+    // Mélange aléatoire des questions disponibles
     questions = available.sort(() => 0.5 - Math.random()).slice(0, 20);
     
     currentQuestionIndex = 0;
@@ -101,39 +81,37 @@ dom.startBtn.addEventListener("click", () => {
     mistakes = [];
     startTime = new Date();
     
-    dom.selection.classList.add("hidden");
-    dom.quiz.classList.remove("hidden");
+    document.getElementById("subject-selection").classList.add("hidden");
+    document.getElementById("quiz-container").classList.remove("hidden");
     loadQuestion();
 });
 
 function loadQuestion() {
     const q = questions[currentQuestionIndex];
-    dom.question.textContent = q.question;
-    dom.form.innerHTML = "";
-    dom.feedback.textContent = "";
+    document.getElementById("question").textContent = q.question;
+    const form = document.getElementById("answers-form");
+    form.innerHTML = "";
+    document.getElementById("feedback").textContent = "";
 
-    if (q.image) {
-        dom.img.src = q.image;
-        dom.img.classList.remove("hidden");
-    } else {
-        dom.img.classList.add("hidden");
-    }
+    // Image si présente
+    const img = document.getElementById("question-image");
+    if (q.image) { img.src = q.image; img.classList.remove("hidden"); } 
+    else { img.classList.add("hidden"); }
 
+    // Mélange des options
     currentShuffledOptions = q.options.map((opt, idx) => ({ opt, idx }));
     currentShuffledOptions.sort(() => 0.5 - Math.random());
 
     currentShuffledOptions.forEach(({ opt }, i) => {
         const label = document.createElement("label");
         label.className = "answer-option";
-        label.innerHTML = `
-            <input type="checkbox" name="answer" value="${i}">
-            <span>${opt}</span>
-        `;
-        dom.form.appendChild(label);
+        label.innerHTML = `<input type="checkbox" name="answer" value="${i}"> <span>${opt}</span>`;
+        form.appendChild(label);
     });
 }
 
-dom.submit.addEventListener("click", () => {
+// --- VALIDATION ---
+document.getElementById("submit-btn").addEventListener("click", () => {
     const checked = Array.from(document.querySelectorAll('input[name="answer"]:checked'))
                          .map(i => parseInt(i.value));
     
@@ -141,21 +119,24 @@ dom.submit.addEventListener("click", () => {
 
     const userIndices = checked.map(i => currentShuffledOptions[i].idx);
     const q = questions[currentQuestionIndex];
-    
     const isCorrect = userIndices.length === q.correctAnswers.length &&
                       userIndices.every(v => q.correctAnswers.includes(v));
 
+    const feedback = document.getElementById("feedback");
+
     if (isCorrect) {
         score++;
-        dom.feedback.innerHTML = "<span style='color:green'>Excellent !</span>";
-        saveSuccess(q.id); // Enregistre l'ID pour ne plus la revoir
+        feedback.innerHTML = "<span style='color:green'>Correct !</span>";
+        // LA QUESTION EST RÉUSSIE : On l'enregistre pour ne plus la revoir
+        saveSuccess(q.id); 
     } else {
         mistakes.push({
             q: q.question,
             y: userIndices.map(i => q.options[i]).join(", "),
             c: q.correctAnswers.map(i => q.options[i]).join(", ")
         });
-        dom.feedback.innerHTML = "<span style='color:red'>Erreur technique ou théorique.</span>";
+        feedback.innerHTML = "<span style='color:red'>Faux. Elle reviendra plus tard !</span>";
+        // ON NE SAUVEGARDE PAS : Elle restera dans "available" au prochain lancement
     }
 
     currentQuestionIndex++;
@@ -166,23 +147,13 @@ dom.submit.addEventListener("click", () => {
 });
 
 function showResult() {
-    dom.quiz.classList.add("hidden");
-    dom.result.classList.remove("hidden");
-    dom.score.textContent = `Score session : ${score} / ${questions.length}`;
-    
-    const time = Math.round((new Date() - startTime) / 1000);
-    dom.time.textContent = `Temps écoulé : ${time} secondes.`;
-
-    dom.recap.innerHTML = mistakes.length > 0 ? "<h3>À revoir :</h3>" : "<h3>Parfait ! Tu maîtrises le sujet.</h3>";
+    document.getElementById("quiz-container").classList.add("hidden");
+    document.getElementById("result").classList.remove("hidden");
+    document.getElementById("score").textContent = `Session : ${score} / ${questions.length}`;
+    document.getElementById("recap").innerHTML = mistakes.length > 0 ? "<h3>Corrections :</h3>" : "<h3>Zéro faute !</h3>";
     mistakes.forEach(m => {
-        dom.recap.innerHTML += `
-            <div class="mistake">
-                <p><strong>Q:</strong> ${m.q}</p>
-                <p style="color:red">Ta réponse : ${m.y}</p>
-                <p style="color:green">Correction : ${m.c}</p>
-            </div><hr>
-        `;
+        document.getElementById("recap").innerHTML += `<div class='mistake'><p><strong>Q:</strong> ${m.q}</p><p style='color:red'>Toi : ${m.y}</p><p style='color:green'>Correct : ${m.c}</p></div><hr>`;
     });
 }
 
-dom.restart.addEventListener("click", () => location.reload());
+document.getElementById("restart-btn").addEventListener("click", () => location.reload());
