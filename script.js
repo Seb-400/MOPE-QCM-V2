@@ -32,33 +32,30 @@ const resetProgress = () => {
 };
 
 /**
- * CHARGEMENT SÉCURISÉ DU JSON
+ * CHARGEMENT DU JSON - CORRECTION DU CHEMIN
  */
-fetch('./questions_with_subject_v2.json?v=' + Date.now()) // ?v= force la mise à jour du cache
+fetch('./questions_with_subject_v2.json') // Suppression du "(2)" qui causait la 404
     .then(response => {
         if (!response.ok) {
-            throw new Error(`Erreur HTTP : ${response.status} - Fichier non trouvé au chemin ./questions_with_subject_v2.json`);
+            throw new Error(`Erreur 404 : Le fichier "questions_with_subject_v2.json" est introuvable sur le serveur.`);
         }
-        return response.text(); // On récupère d'abord en texte brut pour nettoyer
+        return response.text();
     })
     .then(text => {
         try {
-            // Nettoyage : on retire d'éventuels caractères invisibles au début du fichier (BOM)
-            const cleanText = text.trim();
-            allQuestions = JSON.parse(cleanText).map((q, index) => ({
+            allQuestions = JSON.parse(text.trim()).map((q, index) => ({
                 ...q,
                 id: q.id || btoa(unescape(encodeURIComponent(q.question))).substring(0, 24)
             }));
             populateSubjects();
-            console.log("JSON chargé avec succès !");
-        } catch (parseError) {
-            console.error("Erreur de syntaxe dans le JSON :", parseError);
-            console.log("Début du contenu reçu :", text.substring(0, 100));
-            alert("Le fichier JSON contient une erreur de syntaxe. Vérifie les virgules ou les guillemets.");
+            console.log("Fichier chargé avec succès !");
+        } catch (e) {
+            console.error("Erreur de lecture JSON :", e);
+            alert("Le fichier JSON est présent mais contient une erreur de syntaxe.");
         }
     })
     .catch(error => {
-        console.error("Erreur de chargement :", error);
+        console.error("Erreur critique :", error);
         alert(error.message);
     });
 
