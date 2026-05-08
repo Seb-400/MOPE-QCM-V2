@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QUIZ MOPE - Balayage Intégral</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .hidden { display: none; }
+    .answer-option { display: block; background: #f4f4f9; padding: 12px; margin: 8px 0; border-radius: 8px; cursor: pointer; border: 1px solid #ddd; }
+    .answer-option:hover { background: #eef; }
+    .mistake { background: #fff5f5; padding: 10px; border-radius: 5px; margin: 10px 0; }
+    #reset-btn { margin-top: 30px; background: #fee; color: #c33; border: 1px solid #fcc; font-size: 0.8em; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>QUIZ MOPE</h1>
+
+    <div id="subject-selection">
+      <h2>Progression de Seb</h2>
+      <select id="subject-select"></select>
+      <button id="start-btn">Lancer 20 questions</button>
+      <br>
+      <button id="reset-btn" onclick="resetProgress()">Réinitialiser tout l'historique</button>
+    </div>
+
+    <div id="quiz-container" class="hidden">
+      <div id="question" style="font-size: 1.3em; margin-bottom: 20px; font-weight: bold;"></div>
+      <img id="question-image" src="" alt="" class="hidden">
+      <form id="answers-form"></form>
+      <button id="submit-btn" style="background: #4CAF50; color: white;">Valider la réponse</button>
+      <div id="feedback" style="margin-top: 15px; font-weight: bold;"></div>
+    </div>
+
+    <div id="result" class="hidden">
+      <h2>Bilan de la session</h2>
+      <p id="score" style="font-size: 1.5em;"></p>
+      <p id="time"></p>
+      <div id="recap"></div>
+      <button id="restart-btn">Retour au menu</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
