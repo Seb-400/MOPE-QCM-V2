@@ -31,16 +31,35 @@ const resetProgress = () => {
     }
 };
 
-// --- CHARGEMENT ---
-fetch('./questions_with_subject_v2.json')
-    .then(res => res.json())
-    .then(data => {
-        // Génération d'ID unique si absent
-        allQuestions = data.map((q, index) => ({
-            ...q,
-            id: q.id || btoa(unescape(encodeURIComponent(q.question))).substring(0, 24)
-        }));
-        populateSubjects();
+/**
+ * CHARGEMENT SÉCURISÉ DU JSON
+ */
+fetch('./questions_with_subject_v2.json?v=' + Date.now()) // ?v= force la mise à jour du cache
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`Erreur HTTP : ${response.status} - Fichier non trouvé au chemin ./questions_with_subject_v2.json`);
+        }
+        return response.text(); // On récupère d'abord en texte brut pour nettoyer
+    })
+    .then(text => {
+        try {
+            // Nettoyage : on retire d'éventuels caractères invisibles au début du fichier (BOM)
+            const cleanText = text.trim();
+            allQuestions = JSON.parse(cleanText).map((q, index) => ({
+                ...q,
+                id: q.id || btoa(unescape(encodeURIComponent(q.question))).substring(0, 24)
+            }));
+            populateSubjects();
+            console.log("JSON chargé avec succès !");
+        } catch (parseError) {
+            console.error("Erreur de syntaxe dans le JSON :", parseError);
+            console.log("Début du contenu reçu :", text.substring(0, 100));
+            alert("Le fichier JSON contient une erreur de syntaxe. Vérifie les virgules ou les guillemets.");
+        }
+    })
+    .catch(error => {
+        console.error("Erreur de chargement :", error);
+        alert(error.message);
     });
 
 function populateSubjects() {
