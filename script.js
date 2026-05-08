@@ -60,19 +60,31 @@ fetch('./questions_with_subject_v2.json') // Suppression du "(2)" qui causait la
     });
 
 function populateSubjects() {
-    const subjects = [...new Set(allQuestions.map(q => q.subject))];
-    const answeredIds = getAnsweredIds();
-    const select = document.getElementById("subject-select");
+  const answeredIds = getAnsweredIds(); // IDs réellement en cache
+  const select = document.getElementById("subject-select");
+  
+  // On filtre pour ne garder que les questions avec un sujet texte 
+  const validQuestions = allQuestions.filter(q => q.subject && q.subject.trim() !== "");
+  const subjects = [...new Set(validQuestions.map(q => q.subject))];
+  
+  select.innerHTML = '<option value="">-- Choisissez une matière --</option>';
+
+  subjects.forEach(subject => {
+    const questionsInSub = validQuestions.filter(q => q.subject === subject);
     
-    select.innerHTML = '<option value="">-- Choisissez une matière --</option>';
-    subjects.forEach(sub => {
-        const total = allQuestions.filter(q => q.subject === sub).length;
-        const done = allQuestions.filter(q => q.subject === sub && answeredIds.includes(q.id)).length;
-        const opt = document.createElement("option");
-        opt.value = sub;
-        opt.textContent = `${sub} (${done}/${total} validés)`;
-        select.appendChild(opt);
-    });
+    // On ne compte que les IDs uniques qui sont présents dans answeredIds [cite: 1, 4]
+    const doneIds = questionsInSub
+      .filter(q => answeredIds.includes(q.id))
+      .map(q => q.id);
+    
+    const doneCount = [...new Set(doneIds)].length;
+    const totalCount = [...new Set(questionsInSub.map(q => q.id))].length;
+
+    const option = document.createElement("option");
+    option.value = subject;
+    option.textContent = `${subject} (${doneCount}/${totalCount} maîtrisés)`;
+    select.appendChild(option);
+  });
 }
 
 // --- LANCEMENT DU QUIZ ---
