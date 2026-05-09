@@ -5206,10 +5206,10 @@
     "subject": "CAPA",
     "question": "Quelle échelle est utilisée dans le questionnaire APHAB ?",
     "options": [
-      "De \'fréquent\' à '\rare\'.",
-      "De '\excellent\' à '\mauvais'.",
-      "De '\toujours\' (99%) à '\jamais\' (1%).",
-      "De '\confortable\' à '\inconfortable\'."
+      "De fréquent à rare.",
+      "De excellent à mauvais.",
+      "De toujours (99%) à jamais (1%).",
+      "De confortable à inconfortable."
     ],
     "correctAnswers": [
       2
