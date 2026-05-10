@@ -5232,1402 +5232,982 @@
   },
   {
     "subject": "DURABILITE",
+    "question": "La durabilité est définie comme la capacité à répondre aux besoins du ______ sans compromettre ceux des générations futures.",
+    "options": ["passé", "présent", "futur", "marché"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Parmi les trois piliers de la durabilité, lequel complète les piliers environnemental et social ?",
+    "options": ["politique", "technologique", "économique", "culturel"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Le pilier environnemental vise notamment à lutter contre le changement ______.",
+    "options": ["social", "énergétique", "climatique", "politique"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Le pilier social cherche à garantir l’égalité, la justice sociale et le bien-être des ______.",
+    "options": ["citoyens", "travailleurs", "populations", "personnes"],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Le pilier économique encourage des modèles d’affaires durables ainsi que l’______ responsable.",
+    "options": ["innovation", "investissement", "entrepreneuriat", "financement"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Les critères ESG permettent d’évaluer la performance d’une entreprise au-delà des simples résultats ______.",
+    "options": ["commerciaux", "financiers", "boursiers", "fiscaux"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "L’Agenda 2030 repose sur 17 Objectifs de Développement ______ adoptés par l’ONU.",
+    "options": ["mondial", "responsable", "durable", "universel"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "L’ODD 3 concerne la bonne santé et le ______.",
+    "options": ["repos", "bien-être", "sport", "soin"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "L’Accord de ______ de 2015 vise à limiter le réchauffement climatique à +1,5 °C.",
+    "options": ["Genève", "Kyoto", "Paris", "Bruxelles"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "L’économie ______ promeut la réutilisation, la réparation et le recyclage des produits.",
+    "options": ["verte", "collaborative", "circulaire", "durable"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "L’augmentation de la température moyenne de la planète liée à l’accumulation de gaz à effet de serre est appelée :",
+    "options": ["réchauffement naturel", "changement climatique", "effet d’albédo", "transition écologique"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Le processus visant à réduire fortement les émissions de CO₂ dans les différents secteurs économiques est appelé :",
+    "options": ["compensation carbone", "électrification", "décarbonisation", "sobriété énergétique"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "La disparition accélérée des espèces animales et végétales correspond à :",
+    "options": ["fragmentation écologique", "extinction naturelle", "perte de biodiversité", "déforestation"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "La stratégie reposant sur refuser, réduire, réutiliser, recycler et composter correspond à :",
+    "options": ["économie circulaire", "hiérarchie des 5R", "politique zéro déchet", "développement durable"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "L’incapacité d’accéder régulièrement à une alimentation suffisante, sûre et saine correspond à :",
+    "options": ["précarité nutritionnelle", "insécurité alimentaire", "pauvreté alimentaire", "malnutrition chronique"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Le remplacement progressif des énergies fossiles par des sources renouvelables correspond à :",
+    "options": ["conversion énergétique", "transition énergétique", "mutation climatique", "révolution verte"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Une situation où certains groupes ont un accès limité aux droits, aux ressources et aux services essentiels correspond à :",
+    "options": ["exclusion économique", "précarité sociale", "inégalités sociales", "discrimination institutionnelle"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "L’ensemble des actions visant à collecter, traiter et valoriser les déchets en réduisant leur impact correspond à :",
+    "options": ["recyclage industriel", "traitement environnemental", "gestion des déchets", "économie circulaire"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Un mode de déplacement visant à réduire les impacts environnementaux, sociaux et économiques correspond à :",
+    "options": ["transport collectif", "mobilité douce", "mobilité durable", "déplacement responsable"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "L’augmentation progressive de la proportion de personnes âgées dans une population correspond à :",
+    "options": ["transition démographique", "vieillissement démographique", "déclin démographique", "mutation générationnelle"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "L’économie circulaire repose notamment sur le fait de régénérer les systèmes :",
+    "options": ["industriels", "économiques", "naturels", "énergétiques"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Les impacts causés par une entreprise sans qu’elle en assume directement les coûts sont appelés :",
+    "options": ["coûts indirects", "externalités négatives", "pertes économiques", "impacts secondaires"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Quelle approche de conception centrée sur l’utilisateur part des besoins réels avant de chercher des solutions ?",
+    "options": ["Lean management", "brainstorming", "design thinking", "agile design"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Quel outil visuel organise les tâches en colonnes comme \"À faire\", \"En cours\" et \"Terminé\" ?",
+    "options": ["diagramme de Gantt", "tableau Kanban", "carte mentale", "matrice SWOT"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Quelle méthode créative repose sur les questions : Substituer, Combiner, Adapter, Modifier, Éliminer, Réorganiser ?",
+    "options": ["brainstorming", "méthode SMART", "SCAMPER", "PDCA"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Des objectifs définis comme Spécifiques, Mesurables, Atteignables, Pertinents et Temporels sont dits :",
+    "options": ["ISO", "KPI", "SMART", "ESG"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Quelle méthode évalue les impacts environnementaux d’un produit depuis l’extraction des matières premières jusqu’à son élimination ?",
+    "options": ["bilan carbone", "cycle de vie simplifié", "analyse de cycle de vie", "audit environnemental"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Quel cycle d’amélioration continue comprend les étapes Planifier, Faire, Vérifier et Agir ?",
+    "options": ["SWOT", "SCRUM", "PDCA", "DMAIC"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Quelle norme définit un système de management environnemental pour les entreprises ?",
+    "options": ["ISO 9001", "ISO 45001", "ISO 14001", "ISO 26000"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Quelles normes sont souvent utilisées pour structurer les rapports de développement durable ?",
+    "options": ["ESG", "ODD", "GRI", "CSR"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "L’intégration de critères environnementaux dès la conception d’un produit afin de réduire son impact sur tout son cycle de vie correspond à :",
+    "options": ["économie circulaire", "écoconception", "optimisation industrielle", "analyse environnementale"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "La représentation fictive du client idéal, construite à partir de données réelles pour comprendre ses besoins et comportements, correspond à :",
+    "options": ["cible marketing", "buyer persona", "profil consommateur", "segment client"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "La division d’un marché en groupes de consommateurs partageant des caractéristiques ou comportements similaires correspond à :",
+    "options": ["positionnement stratégique", "segmentation du marché", "ciblage commercial", "étude concurrentielle"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "La mesure de la quantité de terre et d’eau biologiquement productive nécessaire pour soutenir notre mode de vie correspond à :",
+    "options": ["bilan carbone", "empreinte écologique", "consommation durable", "impact environnemental"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "La stratégie consistant à concevoir des produits avec une durée de vie volontairement limitée afin d’encourager leur remplacement correspond à :",
+    "options": ["innovation cyclique", "renouvellement produit", "obsolescence programmée", "production accélérée"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Quels groupes sont considérés comme des parties prenantes internes à l’entreprise ?",
+    "options": ["clients et fournisseurs", "ONG et gouvernements", "employés, dirigeants et actionnaires", "médias et investisseurs"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Parmi les groupes suivants, lesquels correspondent à des parties prenantes externes ?",
+    "options": ["managers et salariés", "actionnaires et direction", "clients, fournisseurs et communautés locales", "équipes RH et direction générale"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Le document présentant les performances environnementales, sociales et de gouvernance d’une entreprise est appelé :",
+    "options": ["rapport annuel financier", "audit ESG", "rapport de développement durable", "tableau de bord stratégique"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "Les mesures quantifiables permettant de suivre les progrès d’une organisation en matière de durabilité sont appelées :",
+    "options": ["ESG", "KPI de durabilité", "audits environnementaux", "critères GRI"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
+    "question": "L’évaluation indépendante visant à vérifier la crédibilité d’un rapport de développement durable correspond à :",
+    "options": ["contrôle qualité", "audit externe", "certification produit", "inspection réglementaire"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "DURABILITE",
     "question": "Combien d'Objectifs de Développement Durable (ODD) l'ONU a-t-elle établi pour 2030?",
-    "options": [
-      "15",
-      "25",
-      "20",
-      "17"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["15", "25", "20", "17"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel est l'un des impacts des critères ESG sur les entreprises selon le document?",
-    "options": [
-      "Augmentation obligatoire des salaires",
-      "Accès facilité aux prêts verts",
-      "Élimination de la concurrence",
-      "Réduction automatique des impôts"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Augmentation obligatoire des salaires", "Accès facilité aux prêts verts", "Élimination de la concurrence", "Réduction automatique des impôts"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Laquelle de ces institutions N'est PAS mentionnée comme clé pour l'Agenda 2030 au niveau international?",
-    "options": [
-      "UNESCO",
-      "ONU",
-      "FMI",
-      "PNUD"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["UNESCO", "ONU", "FMI", "PNUD"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "L'Accord de Paris (2015) a pour objectif:",
-    "options": [
-      "Établir des impôts environnementaux mondiaux",
-      "Limiter le réchauffement climatique à +1,5°C",
-      "Éliminer complètement les émissions de CO₂",
-      "Créer un marché mondial du carbone"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Établir des impôts environnementaux mondiaux", "Limiter le réchauffement climatique à +1,5°C", "Éliminer complètement les émissions de CO₂", "Créer un marché mondial du carbone"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "La durabilité dans l'économie mondialisée contribue à la stabilité économique grâce à:",
-    "options": [
-      "L'augmentation des prix des produits",
-      "Le renforcement de la résistance aux crises et la croissance à long terme",
-      "La réduction des échanges commerciaux",
-      "L'élimination de la concurrence internationale"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["L'augmentation des prix des produits", "Le renforcement de la résistance aux crises et la croissance à long terme", "La réduction des échanges commerciaux", "L'élimination de la concurrence internationale"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "La norme TCFD se concentre spécifiquement sur:",
-    "options": [
-      "Information financière ESG sectorielle",
-      "Transparence ESG mondiale",
-      "Risques climatiques financiers",
-      "Harmonisation européenne"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["Information financière ESG sectorielle", "Transparence ESG mondiale", "Risques climatiques financiers", "Harmonisation européenne"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel aspect appartient au pilier de Gouvernance dans les critères ESG?",
-    "options": [
-      "Engagement communautaire",
-      "Santé et sécurité au travail",
-      "Gestion de l'énergie",
-      "Éthique d'entreprise et lutte contre la corruption"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["Engagement communautaire", "Santé et sécurité au travail", "Gestion de l'énergie", "Éthique d'entreprise et lutte contre la corruption"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "La Conférence de Stockholm, considérée comme le point de départ des politiques mondiales de protection environnementale, s'est tenue en:",
-    "options": [
-      "1987",
-      "1975",
-      "1970",
-      "1972"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["1987", "1975", "1970", "1972"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quelle directive européenne de 2022 a révolutionné les rapports de durabilité?",
-    "options": [
-      "Directive de Taxonomie",
-      "Directive NFRD",
-      "Pacte Vert Européen",
-      "Directive CSRD"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["Directive de Taxonomie", "Directive NFRD", "Pacte Vert Européen", "Directive CSRD"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Le plan de l'UE pour atteindre la neutralité carbone est fixé pour:",
-    "options": [
-      "2030",
-      "2050",
-      "2040",
-      "2060"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["2030", "2050", "2040", "2060"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel événement de 1992 a adopté un plan d'action pour la durabilité locale, nationale et internationale?",
-    "options": [
-      "Conférence de Stockholm",
-      "Sommet de Johannesburg",
-      "Accord de Paris",
-      "Sommet de Rio"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["Conférence de Stockholm", "Sommet de Johannesburg", "Accord de Paris", "Sommet de Rio"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Une caractéristique des Objectifs de Développement Durable (ODD) est qu'ils sont:",
-    "options": [
-      "Optionnels pour les pays membres",
-      "Universels, interconnectés et indivisibles",
-      "Uniquement environnementaux",
-      "Seulement pour les pays développés"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Optionnels pour les pays membres", "Universels, interconnectés et indivisibles", "Uniquement environnementaux", "Seulement pour les pays développés"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Dans le pilier Social des critères ESG, on inclut:",
-    "options": [
-      "Protection de la biodiversité",
-      "Diversité et droits humains",
-      "Gestion des déchets",
-      "Transparence d'entreprise"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Protection de la biodiversité", "Diversité et droits humains", "Gestion des déchets", "Transparence d'entreprise"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Selon le rapport Brundtland (1987), la durabilité se définit comme:",
-    "options": [
-      "Protéger uniquement l'environnement pour les générations futures",
-      "Répondre aux besoins du présent sans compromettre la capacité des générations futures à satisfaire les leurs",
-      "Réduire la population mondiale pour conserver les ressources",
-      "Créer une croissance économique illimitée"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Protéger uniquement l'environnement pour les générations futures", "Répondre aux besoins du présent sans compromettre la capacité des générations futures à satisfaire les leurs", "Réduire la population mondiale pour conserver les ressources", "Créer une croissance économique illimitée"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "L'intégration de critères durables dans les chaînes d'approvisionnement vise:",
-    "options": [
-      "Plus de transparence et de continuité",
-      "Éliminer les fournisseurs internationaux",
-      "Réduire uniquement les coûts",
-      "Accélérer les processus de production."
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Plus de transparence et de continuité", "Éliminer les fournisseurs internationaux", "Réduire uniquement les coûts", "Accélérer les processus de production."],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quelle norme de reporting de durabilité est obligatoire en Europe sous la CSRD?",
-    "options": [
-      "SASB",
-      "GRI",
-      "TCFD",
-      "ESRS"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["SASB", "GRI", "TCFD", "ESRS"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Le Club de Rome a alerté sur les ressources limitées de la planète en:",
-    "options": [
-      "1970 avec 'Les limites de la croissance'",
-      "1987 avec le Rapport Brundtland",
-      "1972 avec 'Les limites de la croissance'",
-      "1975 avec 'Ressources finies'"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["1970 avec 'Les limites de la croissance'", "1987 avec le Rapport Brundtland", "1972 avec 'Les limites de la croissance'", "1975 avec 'Ressources finies'"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Dans le cadre des critères ESG, lequel de ces aspects appartient au pilier Environnemental?",
-    "options": [
-      "Transparence d'entreprise",
-      "Conditions de travail",
-      "Gestion des émissions de CO₂",
-      "Diversité du conseil d'administration"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["Transparence d'entreprise", "Conditions de travail", "Gestion des émissions de CO₂", "Diversité du conseil d'administration"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Le modèle de durabilité se base sur l'intégration équilibrée de trois dimensions principales:",
-    "options": [
-      "Innovation, compétitivité et responsabilité corporative",
-      "Mondialisation, numérisation et durabilité",
-      "Protection environnementale, justice sociale et prospérité économique",
-      "Croissance économique, développement technologique et bien-être social"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["Innovation, compétitivité et responsabilité corporative", "Mondialisation, numérisation et durabilité", "Protection environnementale, justice sociale et prospérité économique", "Croissance économique, développement technologique et bien-être social"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Que signifient les sigles ESG?",
-    "options": [
-      "Environnemental, Social, de Gouvernance",
-      "Économique, Social, Global",
-      "Énergie, Société, Gouvernement",
-      "Européen, Durable, Global"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Environnemental, Social, de Gouvernance", "Économique, Social, Global", "Énergie, Société, Gouvernement", "Européen, Durable, Global"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel est le lien entre la perte de biodiversité et la sécurité alimentaire?",
-    "options": [
-      "Elle favorise la production alimentaire",
-      "Elle réduit la pollinisation et menace les cultures",
-      "Elle améliore la qualité des sols agricoles",
-      "Elle augmente la disponibilité des ressources agricoles"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Elle favorise la production alimentaire", "Elle réduit la pollinisation et menace les cultures", "Elle améliore la qualité des sols agricoles", "Elle augmente la disponibilité des ressources agricoles"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
-    "question": "Que signifie « mobilité durable » ?",
-    "options": [
-      "Se déplacer en réduisant l'impact environnemental et social",
-      "Éviter tout type de transport",
-      "Remplacer les transports publics par des voitures individuelles",
-      "Utiliser exclusivement des véhicules à essence"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "question": "Que signifie « mobilité durable »?",
+    "options": ["Se déplacer en réduisant l'impact environnemental et social", "Éviter tout type de transport", "Remplacer les transports publics par des voitures individuelles", "Utiliser exclusivement des véhicules à essence"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel est l'impact de l'acidification des océans?",
-    "options": [
-      "Elle protège la vie marine",
-      "Elle réduit la température mondiale",
-      "Elle favorise la croissance des coraux",
-      "Elle menace les écosystèmes marins et coralliens"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["Elle protège la vie marine", "Elle réduit la température mondiale", "Elle favorise la croissance des coraux", "Elle menace les écosystèmes marins et coralliens"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel rôle jouent les entreprises dans la durabilité?",
-    "options": [
-      "Être des moteurs de l'innovation",
-      "Se limiter à respecter la loi",
-      "Elles n'ont aucun rôle",
-      "Se réduire uniquement à la production"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Être des moteurs de l'innovation", "Se limiter à respecter la loi", "Elles n'ont aucun rôle", "Se réduire uniquement à la production"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "La décarbonation a pour objectif principal?",
-    "options": [
-      "Éliminer les énergies renouvelables",
-      "Augmenter l'exploitation du charbon et du pétrole",
-      "Réduire ou éliminer les émissions de gaz à effet de serre",
-      "Promouvoir uniquement l'utilisation du gaz naturel"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["Éliminer les énergies renouvelables", "Augmenter l'exploitation du charbon et du pétrole", "Réduire ou éliminer les émissions de gaz à effet de serre", "Promouvoir uniquement l'utilisation du gaz naturel"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel organisme international a averti qu'un million d'espèces sont menacées d'extinction?",
-    "options": [
-      "GIEC (IPCC)",
-      "ONU",
-      "IPBES",
-      "PNUD"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["GIEC (IPCC)", "ONU", "IPBES", "PNUD"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quelle est la première étape de la hiérarchie des 5R?",
-    "options": [
-      "Réutiliser",
-      "Refuser",
-      "Réduire",
-      "Recycler"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Réutiliser", "Refuser", "Réduire", "Recycler"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Laquelle de ces mesures ne fait PAS partie des 5R dans la gestion des déchets?",
-    "options": [
-      "Réutiliser",
-      "Rentabiliser",
-      "Réduire",
-      "Recycler"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Réutiliser", "Rentabiliser", "Réduire", "Recycler"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel rôle ont les citoyens dans la transition écologique?",
-    "options": [
-      "Se limiter à attendre que les entreprises changent",
-      "Avoir du pouvoir au quotidien grâce à des décisions de consommation responsable",
-      "Créer des lois environnementales",
-      "Ils n'ont aucun rôle important"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Se limiter à attendre que les entreprises changent", "Avoir du pouvoir au quotidien grâce à des décisions de consommation responsable", "Créer des lois environnementales", "Ils n'ont aucun rôle important"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quelle est l'une des principales menaces pour la biodiversité?",
-    "options": [
-      "L'introduction d'espèces invasives",
-      "La pollinisation des cultures",
-      "La création de parcs naturels",
-      "Le reboisement"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["L'introduction d'espèces invasives", "La pollinisation des cultures", "La création de parcs naturels", "Le reboisement"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "L'une des conséquences de la déforestation est?",
-    "options": [
-      "L'amélioration de la qualité de l'air",
-      "L'augmentation de la fertilité des sols",
-      "La perte de biodiversité et l'augmentation du CO₂",
-      "La diminution de l'effet de serre"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["L'amélioration de la qualité de l'air", "L'augmentation de la fertilité des sols", "La perte de biodiversité et l'augmentation du CO₂", "La diminution de l'effet de serre"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel est l'objectif de la coopération entre gouvernements, entreprises et citoyens en matière de durabilité?",
-    "options": [
-      "Accélérer la transition vers un modèle plus durable",
-      "Favoriser uniquement les intérêts des entreprises",
-      "Travailler de manière isolée",
-      "Déléguer toute la responsabilité aux gouvernements"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Accélérer la transition vers un modèle plus durable", "Favoriser uniquement les intérêts des entreprises", "Travailler de manière isolée", "Déléguer toute la responsabilité aux gouvernements"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quelle est une conséquence sociale du vieillissement de la population?",
-    "options": [
-      "Une diminution de la pression sur le système de santé",
-      "Une réduction des besoins en retraites",
-      "Une augmentation de la pression sur les systèmes de santé et de retraites",
-      "Une croissance du dynamisme économique"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["Une diminution de la pression sur le système de santé", "Une réduction des besoins en retraites", "Une augmentation de la pression sur les systèmes de santé et de retraites", "Une croissance du dynamisme économique"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Laquelle des actions suivantes fait partie de l'économie circulaire?",
-    "options": [
-      "Produire et jeter sans réutiliser",
-      "Favoriser l'obsolescence programmée",
-      "Augmenter l'utilisation des combustibles fossiles",
-      "Réduire, réutiliser et recycler les produits"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["Produire et jeter sans réutiliser", "Favoriser l'obsolescence programmée", "Augmenter l'utilisation des combustibles fossiles", "Réduire, réutiliser et recycler les produits"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Que signifie « pauvreté alimentaire » ?",
-    "options": [
-      "Ne pas avoir un accès régulier à une alimentation suffisante et nutritive",
-      "Manger en excès",
-      "Manger uniquement des aliments transformés",
-      "Consommer uniquement des produits biologiques"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Ne pas avoir un accès régulier à une alimentation suffisante et nutritive", "Manger en excès", "Manger uniquement des aliments transformés", "Consommer uniquement des produits biologiques"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Que signifie « efficacité énergétique » ?",
-    "options": [
-      "Utiliser moins d'énergie pour obtenir le même resultat",
-      "Éliminer complètement la consommation d'énergie",
-      "Utiliser plus d'énergie pour produire plus",
-      "Remplacer les combustibles fossiles par du gaz naturel"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Utiliser moins d'énergie pour obtenir le même résultat", "Éliminer complètement la consommation d'énergie", "Utiliser plus d'énergie pour produire plus", "Remplacer les combustibles fossiles par du gaz naturel"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quelle est la principale cause du changement climatique?",
-    "options": [
-      "La combustion des combustibles fossiles",
-      "L'énergie solaire",
-      "Le recyclage des plastiques",
-      "L'agriculture écologique"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["La combustion des combustibles fossiles", "L'énergie solaire", "Le recyclage des plastiques", "L'agriculture écologique"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quelle est une conséquence directe du changement climatique?",
-    "options": [
-      "Une plus grande stabilité climatique",
-      "L'augmentation des températures et des phénomènes extrêmes",
-      "La diminution des phénomènes météorologiques extrêmes",
-      "La baisse du niveau de la mer"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Une plus grande stabilité climatique", "L'augmentation des températures et des phénomènes extrêmes", "La diminution des phénomènes météorologiques extrêmes", "La baisse du niveau de la mer"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Le secteur qui produit le plus d'émissions de gaz à effet de serre est?",
-    "options": [
-      "Les transports",
-      "La production d'énergie",
-      "Les déchets",
-      "L'agriculture et l'élevage"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Les transports", "La production d'énergie", "Les déchets", "L'agriculture et l'élevage"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quelle action correspond à la transition énergétique?",
-    "options": [
-      "Passer des combustibles fossiles aux énergies renouvelables",
-      "Utiliser davantage de charbon pour produire de l'électricité",
-      "Augmenter l'extraction de pétrole",
-      "Remplacer les énergies renouvelables par du gaz naturel"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Passer des combustibles fossiles aux énergies renouvelables", "Utiliser davantage de charbon pour produire de l'électricité", "Augmenter l'extraction de pétrole", "Remplacer les énergies renouvelables par du gaz naturel"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Comment la RSE peut-elle être un moteur de changement interne dans l'entreprise?",
-    "options": [
-      "En séparant les objectifs de durabilité de la vie quotidienne des travailleurs",
-      "En exigeant des employés qu'ils travaillent plus d'heures",
-      "En minimisant l'importance de la diversité",
-      "En associant les employés à la stratégie de durabilité, ce qui augmente leur motivation et leur productivité"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["En séparant les objectifs de durabilité de la vie quotidienne des travailleurs", "En exigeant des employés qu'ils travaillent plus d'heures", "En minimisant l'importance de la diversité", "En associant les employés à la stratégie de durabilité, ce qui augmente leur motivation et leur productivité"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "De quelle manière la RSE peut-elle encourager un changement positif dans la gestion des ressources humaines d'une entreprise?",
-    "options": [
-      "En séparant les objectifs de durabilité de la vie quotidienne des travailleurs",
-      "En minimisant l'importance de la formation",
-      "Par la promotion de la diversité et l'amélioration des conditions de travail",
-      "En exigeant des employés qu'ils travaillent plus d'heures"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["En séparant les objectifs de durabilité de la vie quotidienne des travailleurs", "En minimisant l'importance de la formation", "Par la promotion de la diversité et l'amélioration des conditions de travail", "En exigeant des employés qu'ils travaillent plus d'heures"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Pourquoi le consommateur actuel est-il considéré comme un « agent de changement » ?",
-    "options": [
-      "Parce que ses décisions d'achat ne sont pas influencées par des valeurs éthiques",
-      "Parce qu'il recherche uniquement des produits à bas coût",
-      "Parce que ses décisions d'achat incitent les entreprises à être plus responsables",
-      "Parce qu'il ne s'intéresse pas à la durabilité"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["Parce que ses décisions d'achat ne sont pas influencées par des valeurs éthiques", "Parce qu'il recherche uniquement des produits à bas coût", "Parce que ses décisions d'achat incitent les entreprises à être plus responsables", "Parce qu'il ne s'intéresse pas à la durabilité"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Selon le contenu de l'unité, quel type d'organisation joue un rôle fondamental dans la mise en œuvre des ODD?",
-    "options": [
-      "Les ONG",
-      "Le secteur privé et les entreprises",
-      "Uniquement les gouvernements",
-      "Les partis politiques"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Les ONG", "Le secteur privé et les entreprises", "Uniquement les gouvernements", "Les partis politiques"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quelle caractéristique distingue les ODD des accords internationaux précédents?",
-    "options": [
-      "Ils s'appliquent à tous les pays, quel que soit leur niveau de développement",
-      "Ils exigent uniquement l'action des gouvernements",
-      "Ils se concentrent exclusivement sur le pilier économique",
-      "Ils s'appliquent uniquement aux pays en développement"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Ils s'appliquent à tous les pays, quel que soit leur niveau de développement", "Ils exigent uniquement l'action des gouvernements", "Ils se concentrent exclusivement sur le pilier économique", "Ils s'appliquent uniquement aux pays en développement"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Outre les résultats financiers, quels indicateurs sont utilisés pour mesurer la contribution d'une entreprise à la durabilité?",
-    "options": [
-      "Le nombre de succursales",
-      "L'investissement en marketing",
-      "Les indicateurs de production et d'emploi",
-      "Uniquement la taille de l'effectif"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["Le nombre de succursales", "L'investissement en marketing", "Les indicateurs de production et d'emploi", "Uniquement la taille de l'effectif"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Lequel des ODD suivants est directement lié à la réduction de la quantité de matériaux et d'énergie nécessaires pour produire un bien?",
-    "options": [
-      "ODD 13 : Action pour le climat",
-      "ODD 12 : Consommation et production responsables",
-      "ODD 8 : Travail décent et croissance économique",
-      "ODD 9 : Industrie, innovation et infrastructures"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["ODD 13 : Action pour le climat", "ODD 12 : Consommation et production responsables", "ODD 8 : Travail décent et croissance économique", "ODD 9 : Industrie, innovation et infrastructures"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel est le principal avantage d'intégrer la durabilité dans la stratégie d'une entreprise, au-delà de la réputation?",
-    "options": [
-      "La mitigation des risques et la diminution des impacts négatifs",
-      "La réduction des effectifs",
-      "L'augmentation des bénéfices à court terme",
-      "La suppression de la communication avec les parties prenantes"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["La mitigation des risques et la diminution des impacts négatifs", "La réduction des effectifs", "L'augmentation des bénéfices à court terme", "La suppression de la communication avec les parties prenantes"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quelle fonction de l'entreprise est directement concernée par la RSE lorsqu'il s'agit de garantir que les fournisseurs respectent les normes éthiques et environnementales?",
-    "options": [
-      "Le service juridique",
-      "Le service financier",
-      "La fonction achats",
-      "Le service marketing"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["Le service juridique", "Le service financier", "La fonction achats", "Le service marketing"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Comment se définit la Responsabilité Sociétale des Entreprises (RSE)?",
-    "options": [
-      "Un programme marketing visant à améliorer l'image",
-      "L'engagement volontaire d'une entreprise envers le développement durable, en tenant compte de ses parties prenantes",
-      "Un moyen de minimiser les investissements dans la protection de l'environnement",
-      "Une obligation légale que toutes les entreprises doivent respecter"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Un programme marketing visant à améliorer l'image", "L'engagement volontaire d'une entreprise envers le développement durable, en tenant compte de ses parties prenantes", "Un moyen de minimiser les investissements dans la protection de l'environnement", "Une obligation légale que toutes les entreprises doivent respecter"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "À quoi fait référence le terme « parties prenantes » (stakeholders) dans le contexte de la RSE?",
-    "options": [
-      "Aux individus, groupes ou organisations ayant un intérêt ou étant affectés par les actions d'une entreprise",
-      "Uniquement aux actionnaires de l'entreprise",
-      "Uniquement aux employés",
-      "Aux dirigeants de l'entreprise"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Aux individus, groupes ou organisations ayant un intérêt ou étant affectés par les actions d'une entreprise", "Uniquement aux actionnaires de l'entreprise", "Uniquement aux employés", "Aux dirigeants de l'entreprise"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Dans les modèles de gestion modernes, quels autres aspects sont pris en compte, en plus des résultats financiers, pour mesurer le succès d'une entreprise?",
-    "options": [
-      "L'opinion des actionnaires",
-      "Uniquement les résultats financiers et la part de marché",
-      "L'innovation et la technologie",
-      "L'impact environnemental et social"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["L'opinion des actionnaires", "Uniquement les résultats financiers et la part de marché", "L'innovation et la technologie", "L'impact environnemental et social"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
-    "question": "Laquelle des options suivantes n'est pas l'un des « 5 P » qui regroupent les ODD de l'Agenda 2030?",
-    "options": [
-      "Personnes",
-      "Prospérité",
-      "Productivité",
-      "Planète"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "question": "Laquelle de ces options suivantes n'est pas l'un des « 5 P » qui regroupent les ODD de l'Agenda 2030?",
+    "options": ["Personnes", "Prospérité", "Productivité", "Planète"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
-    "question": "Combien d'Objectifs de Développement Durable (ODD) font partie de l'Agenda 2030 de l'ONU?",
-    "options": [
-      "10",
-      "15",
-      "20",
-      "17"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "question": "Combien d'Objectifs de Développement Durable (ODD) font partie de l’Agenda 2030 de l'ONU?",
+    "options": ["10", "15", "20", "17"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Comment la RSE peut-elle stimuler l'innovation au sein d'une entreprise?",
-    "options": [
-      "En favorisant la diversité et l'engagement des employés",
-      "En séparant les objectifs de durabilité des opérations quotidiennes",
-      "En exigeant des employés qu'ils travaillent plus d'heures",
-      "En minimisant les dépenses en développement"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["En favorisant la diversité et l'engagement des employés", "En séparant les objectifs de durabilité des opérations quotidiennes", "En exigeant des employés qu'ils travaillent plus d'heures", "En minimisant l'importance de la formation"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel type d'action personnelle illustre l'impact direct du consommateur sur les Objectifs de Développement Durable (ODD)?",
-    "options": [
-      "Choisir un moyen de transport durable comme marcher plutôt qu'utiliser la voiture",
-      "Économiser de l'argent pour investir en bourse",
-      "Acheter des produits de marques internationales",
-      "Regarder des documentaires sur la durabilité"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Choisir un moyen de transport durable comme marcher plutôt qu'utiliser la voiture", "Économiser de l'argent pour investir en bourse", "Acheter des produits de marques internationales", "Regarder des documentaires sur la durabilité"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Que représente, pour une entreprise, l'engagement volontaire envers le développement durable et la prise en compte des parties prenantes?",
-    "options": [
-      "Un investissement inutile",
-      "La Responsabilité Sociétale des Entreprises (RSE)",
-      "Une obligation légale",
-      "Une stratégie marketing sans impact réel"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Un investissement inutile", "La Responsabilité Sociétale des Entreprises (RSE)", "Une obligation légale", "Une stratégie marketing sans impact réel"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Qu'est-ce qui permet aux organisations d'aligner leur stratégie sur des principes éthiques et des réglementations internationales?",
-    "options": [
-      "La croissance économique à tout prix",
-      "L'intégration des ODD",
-      "Ignorer les réglementations internationales",
-      "La dématérialisation"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["La croissance économique à tout prix", "L'intégration des ODD", "Ignorer les réglementations internationales", "La dématérialisation"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "De quelle manière les décisions de consommation quotidiennes d'une personne influencent-elles directement la durabilité?",
-    "options": [
-      "Elles n'ont aucun impact significatif",
-      "En augmentant la demande de produits à usage unique",
-      "Uniquement à travers les grandes entreprises",
-      "En choisissant des produits certifiés durables et en réduisant la consommation"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["Elles n'ont aucun impact significatif", "En augmentant la demande de produits à usage unique", "Uniquement à travers les grandes entreprises", "En choisissant des produits certifiés durables et en réduisant la consommation"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
-    "question": "Lequel des éléments suivants n'est pas l'un des trois piliers du développement durable?",
-    "options": [
-      "Social",
-      "Environnemental",
-      "Politique",
-      "Économique"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "question": "Lequel des éléments suivants n'est pas l’un des trois piliers du développement durable?",
+    "options": ["Social", "Environnemental", "Politique", "Économique"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Dans le contexte de la rareté des ressources, quel est le principal problème causé par la dépendance à quelques fournisseurs mondiaux de matières premières?",
-    "options": [
-      "Diminution des coûts de production",
-      "Augmentation de la demande de produits",
-      "Meilleur contrôle de la chaîne d'approvisionnement",
-      "Instabilité économique et géopolitique"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["Diminution des coûts de production", "Augmentation de la demande de produits", "Meilleur contrôle de la chaîne d'approvisionnement", "Instabilité économique et géopolitique"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "En complétant une unité sur la durabilité, lequel des objectifs suivants est fondamental?",
-    "options": [
-      "Apprendre à investir en bourse",
-      "Analyser le marketing digital des entreprises",
-      "Concevoir des campagnes publicitaires durables",
-      "Différencier entre économie verte et économie circulaire"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["Apprendre à investir en bourse", "Analyser le marketing digital des entreprises", "Concevoir des campagnes publicitaires durables", "Différencier entre économie verte et économie circulaire"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quelle est la principale différence entre l'économie verte et l'économie circulaire selon l'approche du document?",
-    "options": [
-      "L'économie circulaire n'intègre pas l'efficacité énergétique",
-      "L'économie verte se concentre sur l'investissement public, tandis que l'économie circulaire se concentre sur l'investissement privé",
-      "L'économie verte vise la croissance et le bien-être sans épuiser les ressources, tandis que l'économie circulaire se concentre spécifiquement sur la gestion des matériaux et des déchets",
-      "L'économie verte est réservée aux pays en développement"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["L'économie circulaire n'intègre pas l'efficacité énergétique", "L'économie verte se concentre sur l'investissement public, tandis que l'économie circulaire se concentre sur l'investissement privé", "L'économie verte vise la croissance et le bien-être sans épuiser les ressources, tandis que l'économie circulaire se concentre spécifiquement sur la gestion des matériaux et des déchets", "L'économie verte est réservée aux pays en développement"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Parmi les « trois R » de la gestion des déchets, laquelle est considérée comme l'action la plus importante?",
-    "options": [
-      "Réduire",
-      "Recycler",
-      "Réutiliser",
-      "Réparer"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Réduire", "Recycler", "Réutiliser", "Réparer"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Selon les principes de l'économie circulaire, quel est son objectif primordial?",
-    "options": [
-      "Générer le moins de déchets possible",
-      "Promouvoir la consommation de masse",
-      "Réduire le prix des produits",
-      "Éliminer les déchets et la pollution dès la conception"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["Générer le moins de déchets possible", "Promouvoir la consommation de masse", "Réduire le prix des produits", "Éliminer les déchets et la pollution dès la conception"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quelle action des producteurs facilite les décisions plus durables des consommateurs?",
-    "options": [
-      "Utiliser un étiquetage confus pour le consommateur",
-      "Cacher les informations sur la durée de vie d'un produit",
-      "Concevoir des produits avec obsolescence programmée",
-      "Proposer des systèmes de réparation, de reprise et de recyclage"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["Utiliser un étiquetage confus pour le consommateur", "Cacher les informations sur la durée de vie d'un produit", "Concevoir des produits avec obsolescence programmée", "Proposer des systèmes de réparation, de reprise et de recyclage"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
-    "question": "Quel processus de transformation pour les entreprises est structuré en étapes avec un objectif défini, allant du diagnostic à l'amélioration continue?",
-    "options": [
-      "La mise en œuvre de l'économie circulaire",
-      "L'empreinte écologique",
-      "La servicialisation",
-      "La consommation responsable"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "question": "Quel processus de transformation pour les entreprises est structuré en étapes avec un objectif défini, allant du diagnostic a l'amélioration continue?",
+    "options": ["La mise en œuvre de l'économie circulaire", "L'empreinte écologique", "La servicialisation", "La consommation responsable"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Dans la transition d'une entreprise vers l'économie circulaire, quelle est la principale raison de commencer par un projet pilote?",
-    "options": [
-      "Minimiser les risques et apprendre des erreurs à petite échelle",
-      "Concurrencer les autres entreprises",
-      "Augmenter rapidement les bénéfices",
-      "Réduire la main-d'œuvre"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Minimiser les risques et apprendre des erreurs à petite échelle", "Concurrencer les autres entreprises", "Augmenter rapidement les bénéfices", "Réduire la main-d'œuvre"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel concept est considéré comme fondamental pour l'économie circulaire, car c'est là que se décide la majeure partie de l'impact d'un produit?",
-    "options": [
-      "La gestion des déchets",
-      "La publicité",
-      "La réduction des coûts",
-      "L'écoconception"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["La gestion des déchets", "La publicité", "La réduction des coûts", "L'écoconception"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel outil une entreprise utilise-t-elle pour évaluer les impacts d'un produit depuis l'extraction des matières premières jusqu'à la fin de sa vie utile?",
-    "options": [
-      "L'empreinte carbone",
-      "La comptabilité financière",
-      "L'analyse de la chaîne de valeur",
-      "L'analyse du cycle de vie (ACV)"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["L'empreinte carbone", "La comptabilité financière", "L'analyse de la chaîne de valeur", "L'analyse du cycle de vie (ACV)"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Pour une entreprise qui cherche à mettre en place un modèle d'économie circulaire, quelle est la première étape du processus?",
-    "options": [
-      "L'analyse et le diagnostic initial",
-      "L'évaluation et la mesure des résultats",
-      "La création d'un projet pilote",
-      "La mise en œuvre d'énergies renouvelables"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["L'analyse et le diagnostic initial", "L'évaluation et la mesure des résultats", "La création d'un projet pilote", "La mise en œuvre d'énergies renouvelables"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "L'empreinte écologique est composée de plusieurs types de surfaces productives. Quel est le composant le plus important et le plus connu?",
-    "options": [
-      "L'empreinte des cultures",
-      "L'empreinte hydrique",
-      "L'empreinte carbone",
-      "L'empreinte forestière"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["L'empreinte des cultures", "L'empreinte hydrique", "L'empreinte carbone", "L'empreinte forestière"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
-    "question": "Quelle est la principale raison pour laquelle l'adoption des énergies renouvelables est considérée comme un pilier clé de l'économie circulaire?",
-    "options": [
-      "Éviter la formation de nouveaux professionnels",
-      "Augmenter la dépendance aux combustibles fossiles",
-      "Donner sens et viabilité à tout le processus circulaire",
-      "Réduire le coût des matières premières"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "question": "Quelle est la principale raison pour laquelle l’'adoption des énergies renouvelables est considérée comme un pilier clé de l'économie circulaire?",
+    "options": ["Éviter la formation de nouveaux professionnels", "Augmenter la dépendance aux combustibles fossiles", "Donner sens et viabilité à tout le processus circulaire", "Réduire le coût des matières premières"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel outil est fondamental pour l'économie circulaire, car il permet d'internaliser les coûts environnementaux dès la phase de conception d'un produit?",
-    "options": [
-      "L'écoconception",
-      "La publicité",
-      "La certification ISO",
-      "Le marketing"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["L'écoconception", "La publicité", "La certification ISO", "Le marketing"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Lequel des modèles économiques suivants est considéré comme non durable en raison de son cycle « extraire, produire, utiliser et jeter »?",
-    "options": [
-      "Le modèle circulaire",
-      "L'économie verte",
-      "Le modèle linéaire",
-      "L'économie de marché"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["Le modèle circulaire", "L'économie verte", "Le modèle linéaire", "L'économie de marché"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Laquelle de ces dimensions est l'une des trois dimensions clés de l'économie verte?",
-    "options": [
-      "Politique",
-      "Technologique",
-      "Économique",
-      "Scientifique"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["Politique", "Technologique", "Économique", "Scientifique"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Que signifie la « servicialisation » dans le contexte de l'économie circulaire?",
-    "options": [
-      "La vente d'un service au lieu d'un produit",
-      "L'investissement dans la technologie",
-      "L'utilisation des réseaux sociaux pour vendre",
-      "La vente de produits d'occasion"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["La vente d'un service au lieu d'un produit", "L'investissement dans la technologie", "L'utilisation des réseaux sociaux pour vendre", "La vente de produits d'occasion"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Qu'obtient-on avec le design modulaire, l'une des stratégies clés de l'écoconception?",
-    "options": [
-      "Réduire la qualité du produit",
-      "Augmenter les coûts de production",
-      "Allonger la durée de vie des produits",
-      "Encourager l'achat de produits jetables"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["Réduire la qualité du produit", "Augmenter les coûts de production", "Allonger la durée de vie des produits", "Encourager l'achat de produits jetables"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Que sont les emplois verts?",
-    "options": [
-      "Des emplois liés uniquement au jardinage",
-      "Des emplois ne nécessitant aucune formation",
-      "Des emplois dans l'industrie pétrolière",
-      "Des emplois contribuant à préserver ou restaurer l'environnement"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["Des emplois liés uniquement au jardinage", "Des emplois ne nécessitant aucune formation", "Des emplois dans l'industrie pétrolière", "Des emplois contribuant à préserver ou restaurer l'environnement"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Dans le contexte d'un modèle économique classique, comment définit-on un impact qu'une entreprise génère sur des tiers sans en assumer les coûts?",
-    "options": [
-      "Un bénéfice social direct pour la communauté",
-      "Une externalité négative",
-      "Un impact économique qui profite à l'entreprise",
-      "Un coût assumé volontairement par l'entreprise"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Un bénéfice social direct pour la communauté", "Une externalité négative", "Un impact économique qui profite á l'entreprise", "Un coût assumé volontairement par l’entreprise"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel outil numérique aide à mesurer les émissions de gaz à effet de serre?",
-    "options": [
-      "Application marketing",
-      "Plateforme e-learning",
-      "Calculateur d'empreinte carbone",
-      "ERP financier"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["Application marketing", "Plateforme e-learning", "Calculateur d'empreinte carbone", "ERP financier"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quelle dimension fait partie des critères ESG?",
-    "options": [
-      "Politique",
-      "Économique",
-      "Sociale",
-      "Technologique"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["Politique", "Économique", "Sociale", "Technologique"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Laquelle de ces actions est une stratégie sociale?",
-    "options": [
-      "Optimisation du cycle de vie du produit",
-      "Investissement dans les énergies renouvelables",
-      "Audits des fournisseurs",
-      "Certification ISO 14001"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["Optimisation du cycle de vie du produit", "Investissement dans les énergies renouvelables", "Audits des fournisseurs", "Certification ISO 14001"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Qu'est-ce qu'on considère comme une externalité négative?",
-    "options": [
-      "Formation des employés",
-      "Réduction des émissions",
-      "Création d'emplois locaux",
-      "Pollution de l'eau"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["Formation des employés", "Réduction des émissions", "Création d'emplois locaux", "Pollution de l'eau"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quelle phase correspond au cycle PDCA?",
-    "options": [
-      "Plan, Do, Check, Act",
-      "Planifier, Développer, Corriger, Auditer",
-      "Prévenir, Détecter, Corriger, Ajuster",
-      "Préparer, Décider, Communiquer, Ajuster"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Plan, Do, Check, Act", "Planifier, Développer, Corriger, Auditer", "Prévenir, Détecter, Corriger, Ajuster", "Préparer, Décider, Communiquer, Ajuster"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel est un avantage d'utiliser la blockchain en durabilité?",
-    "options": [
-      "Éliminer les déchets instantanément",
-      "Garantir la traçabilité",
-      "Réduire les coûts de main-d'œuvre",
-      "Remplacer les énergies renouvelables"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Éliminer les déchets instantanément", "Garantir la traçabilité", "Réduire les coûts de main-d'œuvre", "Remplacer les énergies renouvelables"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Une stratégie environnementale dans l'entreprise est...?",
-    "options": [
-      "Minimiser la diversité dans le personnel",
-      "Réduire la formation des employés",
-      "Optimiser la consommation d'eau",
-      "Augmenter la production sans limites"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["Minimiser la diversité dans le personnel", "Réduire la formation des employés", "Optimiser la consommation d'eau", "Augmenter la production sans limites"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel aspect est un KPI de gouvernance?",
-    "options": [
-      "Indice d'innovation verte",
-      "% de la chaîne d'approvisionnement auditée",
-      "Impact climatique évité",
-      "Réduction de la consommation d'eau"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Indice d'innovation verte", "% de la chaîne d'approvisionnement auditée", "Impact climatique évité", "Réduction de la consommation d'eau"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quelle technologie permet de simuler des impacts avant leur mise en œuvre?",
-    "options": [
-      "Jumeaux numériques",
-      "IoT",
-      "Big Data",
-      "Réalité augmentée"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Jumeaux numériques", "IoT", "Big Data", "Réalité augmentée"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel groupe appartient aux parties prenantes internes?",
-    "options": [
-      "Employés",
-      "Gouvernement",
-      "ONG",
-      "Clients"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Employés", "Gouvernement", "ONG", "Clients"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Que signifie un objectif SMART?",
-    "options": [
-      "Spécifique, Mesurable, Atteignable, Pertinent, Temporel",
-      "Simple, Motivant, Adaptable, Répétitif, Technique",
-      "Sûr, Minimum, Accepté, Responsable, Tolérant",
-      "Durable, Moderne, Agile, Réaliste, Temporel"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Spécifique, Mesurable, Atteignable, Pertinent, Temporel", "Simple, Motivant, Adaptable, Répétitif, Technique", "Sûr, Minimum, Accepté, Responsable, Tolérant", "Durable, Moderne, Agile, Réaliste, Temporel"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel est le but principal d'un plan de développement durable dans une entreprise?",
-    "options": [
-      "Remplacer totalement les rapports financiers",
-      "Intégrer la durabilité dans la stratégie de l'entreprise",
-      "Réduire uniquement les coûts de main-d'œuvre",
-      "Augmenter les bénéfices à court terme"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Remplacer totalement les rapports financiers", "Intégrer la durabilité dans la stratégie de l'entreprise", "Réduire uniquement les coûts de main-d'œuvre", "Augmenter les bénéfices a court terme"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel avantage génèrent les rapports de durabilité?",
-    "options": [
-      "Éliminent le besoin d'audits",
-      "Remplacent les KPI financiers",
-      "Réduisent automatiquement tous les coûts",
-      "Augmentent la transparence et la crédibilité"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["Éliminent le besoin d'audits", "Remplacent les KPI financiers", "Réduisent automatiquement tous les coûts", "Augmentent la transparence et la crédibilité"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel est un exemple de partie prenante externe?",
-    "options": [
-      "Actionnaires",
-      "Fournisseurs",
-      "Dirigeants",
-      "Travailleurs internes"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Actionnaires", "Fournisseurs", "Dirigeants", "Travailleurs internes"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel département dirige généralement la formation et le bien-être au travail?",
-    "options": [
-      "Ressources humaines",
-      "Marketing",
-      "Production",
-      "Finances"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Ressources humaines", "Marketing", "Production", "Finances"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel indicateur est un KPI environnemental?",
-    "options": [
-      "Nombre de réunions du comité",
-      "Indice de satisfaction des employés",
-      "Tonnes de CO₂ émises",
-      "Taux de rotation du personnel"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["Nombre de réunions du comité", "Indice de satisfaction des employés", "Tonnes de CO₂ émises", "Taux de rotation du personnel"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quel KPI appartient à la dimension sociale?",
-    "options": [
-      "Valeur économique distribuée",
-      "Heures de formation par employé",
-      "Consommation énergétique",
-      "Cas de corruption signalés"
-    ],
-    "correctAnswers": [
-      1
-    ],
+    "options": ["Valeur économique distribuée", "Heures de formation par employé", "Consommation énergétique", "Cas de corruption signalés"],
+    "correctAnswers": [1],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quelle option décrit le mieux la matérialité en durabilité?",
-    "options": [
-      "Optimisation du transport",
-      "Sélection de matériaux recyclés",
-      "Réduction des emballages",
-      "Identification des enjeux ESG critiques"
-    ],
-    "correctAnswers": [
-      3
-    ],
+    "options": ["Optimisation du transport", "Sélection de matériaux recyclés", "Réduction des emballages", "Identification des enjeux ESG critiques"],
+    "correctAnswers": [3],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Quelle méthodologie évalue les impacts tout au long du cycle de vie d'un produit?",
-    "options": [
-      "Analyse du cycle de vie (ACV)",
-      "Analyse des coûts",
-      "Benchmarking",
-      "Comptabilité financière"
-    ],
-    "correctAnswers": [
-      0
-    ],
+    "options": ["Analyse du cycle de vie (ACV)", "Analyse des coûts", "Benchmarking", "Comptabilité financière"],
+    "correctAnswers": [0],
     "image": ""
   },
   {
     "subject": "DURABILITE",
     "question": "Qu'est-ce qu'une externalité positive?",
-    "options": [
-      "Production de déchets toxiques",
-      "Précarisation de l'emploi",
-      "Amélioration de la biodiversité",
-      "Coûts supplémentaires pour les fournisseurs"
-    ],
-    "correctAnswers": [
-      2
-    ],
+    "options": ["Production de déchets toxiques", "Précarisation de l'emploi", "Amélioration de la biodiversité", "Coûts supplémentaires pour les fournisseurs"],
+    "correctAnswers": [2],
     "image": ""
   },
   {
