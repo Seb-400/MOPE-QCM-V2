@@ -2582,6 +2582,182 @@
     ],
     "image": ""
   },
+   {
+    "subject": "ACAPA",
+    "question": "Qui décrivit dans sa Phonurgia Nova (1673) divers dispositifs acoustiques destinés à la transmission et à l’amplification de la voix ?",
+    "options": ["Thomas Edison", "Alexander Graham Bell", "Athanasius Kircher", "Emile Berliner"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "Quel événement marqua une étape décisive dans l’histoire de l’amplification sonore ?",
+    "options": [
+      "La commercialisation du Dentaphone",
+      "Le lancement du Digifocus d’Oticon, 1996",
+      "L’invention du transistor (Bell Labs, 1947)",
+      "L’apparition du téléphone (Alexander Graham Bell, 1876)"
+    ],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "Quelle est la fonction principale de la 'Gestion intelligente du bruit' ?",
+    "options": [
+      "Éliminer totalement les sons ambiants pour ne laisser que le silence",
+      "Prioriser la voix humaine et réduire les sons impulsifs",
+      "Augmenter le volume de tous les sons captés par le microphone",
+      "Désactiver les microphones directionnels en présence de bruit"
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "L'adaptation automatique ajuste trois paramètres en temps réel. Lequel de ces éléments n'en fait PAS partie ?",
+    "options": ["La réduction du bruit", "La directivité", "Le niveau de charge de la batterie", "Le volume"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "Comment l'appareil parvient-il à proposer un profil 'sur mesure' à l'utilisateur ?",
+    "options": [
+      "Grâce à l'apprentissage des préférences basées sur les habitudes de l'utilisateur",
+      "En utilisant uniquement les réglages par défaut configurés en usine",
+      "En demandant à l'utilisateur de passer un test auditif chaque matin",
+      "En se connectant systématiquement au profil d'un autre utilisateur"
+    ],
+    "correctAnswers": [0],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "Parmi les fonctionnalités connectées, laquelle apporte une sécurité physique supplémentaire à l'utilisateur ?",
+    "options": ["La traduction en temps réel", "La connexion avec des objets intelligents", "La détection de chutes", "Les commandes vocales"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "Que permet le concept d'autonomie de l'utilisateur décrit dans le document ?",
+    "options": [
+      "Remplacer soi-même les composants électroniques internes",
+      "Régler l'appareil via une application sans l'intervention d'un audioprothésiste",
+      "Changer la prescription médicale de l'appareil",
+      "Désactiver définitivement les microphones de l'appareil"
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "À quelle étape technologique associe-t-on l'invention du microphone à carbone par Thomas Edison ?",
+    "options": ["Étape acoustique", "Étape du carbone", "Étape du transistor", "Étape numérique"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "Quel inventeur est célèbre pour ses travaux durant l'étape acoustique et l'invention du téléphone ?",
+    "options": ["Alexander Graham Bell", "Thomas Edison", "Jack Kilby", "Maurice Audibert"],
+    "correctAnswers": [0],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "L'apparition des premiers appareils auditifs électriques portables correspond à quelle étape ?",
+    "options": ["L'étape numérique", "L'étape du carbone", "L'étape des lampes à vide", "L'étape du transistor"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "Quelle innovation majeure a permis le passage vers l'étape numérique et la miniaturisation extrême ?",
+    "options": ["Le cornet acoustique", "Les circuits intégrés", "Le moulage en acrylique", "La pile bouton"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "Quel est l'ordre logique d'évolution des technologies d'aides auditives, de la plus ancienne à la plus récente ?",
+    "options": [
+      "Analogique -> Acoustique -> Numérique -> Sans Fil",
+      "Acoustique -> Analogique -> Numérique -> Sans Fil",
+      "Acoustique -> Numérique -> Analogique -> Sans Fil",
+      "Analogique -> Numérique -> Acoustique -> Sans Fil"
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "Analyser les niveaux de gain à chaque fréquence est une bonne méthode pour vérifier la programmation.",
+    "options": ["Vrai", "Faux"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "La garantie couvre automatiquement la perte de l'aide auditive.",
+    "options": ["Vrai", "Faux"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "Les pannes électroniques peuvent être causées par l'humidité ou les courts-circuits.",
+    "options": ["Vrai", "Faux"],
+    "correctAnswers": [0],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "Quel composant cause souvent des sifflements ou bourdonnements en cas de détérioration ?",
+    "options": ["Microphone", "Batterie rechargeable", "Processeur numérique", "Récepteur"],
+    "correctAnswers": [0],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "Quel outil permet de vérifier si l'amplification est bien adaptée au conduit auditif du patient ?",
+    "options": ["Logiciel du fabricant", "REM (mesure in situ)", "Audiométrie vocale", "Bobine téléphonique"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "Quelle est la première étape à suivre lorsqu'on soupçonne un mauvais réglage de l'aide auditive ?",
+    "options": ["Remplacer la pile", "Nettoyer l'appareil", "Écouter les commentaires du patient", "Envoyer l'appareil en réparation"],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "Quel avantage principal offre le Bluetooth LE Audio par rapport au Bluetooth classique ?",
+    "options": ["Une amplification plus forte du son", "Une consommation de batterie beaucoup plus faible", "Une connexion uniquement par câble"],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "Comment fonctionne le système Auracast ?",
+    "options": [
+      "Un appariement obligatoire entre tous les appareils",
+      "Un système de diffusion 'broadcast', comparable à une station de radio",
+      "Une connexion filaire permanente"
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ACAPA",
+    "question": "Un arrêt inattendu de l'aide auditive est-il toujours dû à un mauvais réglage ?",
+    "options": ["Vrai", "Faux"],
+    "correctAnswers": [1],
+    "image": ""
+  },
   {
     "subject": "CAPA",
     "question": "L'entrée audio",
