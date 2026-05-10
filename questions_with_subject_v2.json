@@ -13761,6 +13761,366 @@
   },
   {
     "subject": "PCH",
+    "question": "Une barrière sémantique apparaît lorsque :",
+    "option": [
+      "Le récepteur ne comprend pas le sens du message",
+      "L'émetteur perd le contact visuel avec le récepteur",
+      "Le message est transmis avec trop de bruit ambiant",
+      "Le canal utilisé ne permet pas la rétroalimentation"
+    ],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Quel élément est considéré comme l'axe central de l'identité sourde au sein de la communauté sourde?",
+    "option": [
+      "L'appartenance obligatoire à une association",
+      "La scolarisation dans des centres spécifiques",
+      "La langue des signes",
+      "L'accès universel aux prothèses auditives"
+    ],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "La Langue Parlée Complétée (LPC) aide à la communication parce qu'elle :",
+    "option": [
+      "Apporte des informations visuelles sur les syllabes et les phonèmes",
+      "Élimine la nécessité de lire sur les lèvres",
+      "N'a pas besoin de s'appuyer sur la langue orale",
+      "Aucune n'est correcte"
+    ],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "La fonction principale d'un interprète en langue des signes est :",
+    "option": [
+      "Conseiller la personner sourde sur des décisions médicales",
+      "Transmettre les messages entre langues de manière fidèle et neutre",
+      "Transmettre à la personne sourde son point de vue sur le message oral",
+      "Toutes sont correctes"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "La communication bimodale se caractérise par :",
+    "option": [
+      "Être une langue naturelle avec sa propre grammaire",
+      "Avoir la langue des signes comme langue de base",
+      "L'usage simultané de la modalité orale-auditive et de la modalité visuo-gestuelle basées sur la langue orale",
+      "Toutes sont correctes"
+    ],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Un exemple typique de phase de déni serait :",
+    "option": [
+      "Chercher des écoles avec soutien spécialisé",
+      "Chercher constamment de nouvelles évaluations médicales",
+      "Acquérir des prothèses auditives",
+      "S'intégrer dans des associations de familles sourdes"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "La langue des signes N'EST PAS :",
+    "option": [
+      "Une langue reconnue légalement en France",
+      "Un système visuo-gestuel",
+      "Une reproduction visuelle de la langue orale avec la même structure",
+      "Une langue possédant sa propre structure"
+    ],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "La boucle magnétique fonctionne grâce à :",
+    "option": [
+      "Des ondes radio FM dirigées vers le microphone de la prothèse",
+      "Des vibrations osseuses transmises directement au crâne",
+      "Des ondes électromagnétiques captées par la bobine inductive (position T) du dispositif auditif",
+      "Des ultrasons émis par le haut-parleur"
+    ],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Le guide-interprète travaille principalement avec :",
+    "option": [
+      "Les personnes ayant une perte auditive sévère",
+      "Les enfants ayant une hypoacousie sévère",
+      "Les personnes âgées présentant une presbyacousie",
+      "Les personnes sourdaveugles"
+    ],
+    "correctAnswers": 3,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Les systèmes CAA sont considérés comme des systèmes de communication lorsqu'ils :",
+    "option": [
+      "Permettent des actes communicatifs fonctionnels et spontanés",
+      "Remplacent totalement toute forme de langue orale",
+      "Incluent exclusivement des signes vocaux",
+      "Ne nécessitent aucun apprentissage formel"
+    ],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Quelle est l'une des fonctions clés de l'audioprothésiste lorsqu'il intervient auprès d'un patient adolescent ?",
+    "option": [
+      "Assumer l'intervention psychologique thérapeutique professionnelle de l'adolescent",
+      "Intervenir uniquement en cas de pannes techniques",
+      "Se substituer au soutien familial",
+      "Accompagner informer et transmettre un sentiment de sécurité dans l'utilisation de la prothèse"
+    ],
+    "correctAnswers": 3,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Quelle est la principale difficulté rencontrée par les parents entendants d'enfants sourds dans les premières étapes du développement communicatif ?",
+    "option": [
+      "L'incapacité à apprendre des stratégies visuelles",
+      "L'absence d'un code de communication efficace partagé",
+      "Le manque d'intérêt pour la communication avec l'enfant",
+      "Le rejet systématique de toute intervention professionnelle"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Quel curriculum est utilisé avec l'élève présentant une déficience auditive dans un centre ordinaire d'intégration ?",
+    "option": [
+      "Un curriculum parallèle au curriculum ordinaire",
+      "Un curriculum réduit centré sur la lecto-écriture",
+      "Un curriculum spécifique pour les élèves sourds",
+      "Le curriculum ordinaire avec les adaptations pertinentes"
+    ],
+    "correctAnswers": 3,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Quelle variable est considérée comme clé dans le développement communicatif et linguistique de l'enfant sourd ?",
+    "option": [
+      "L'utilisation de technologies auditives",
+      "L'accessibilité précoce à un système de communication efficace",
+      "Le niveau académique des parents",
+      "La scolarisation dans un centre spécifique pour enfants sourds"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Quelles sont les principales modalités d'enseignement dans la scolarisation des élèves sourds ?",
+    "option": [
+      "Monolingue oraliste et bilingüe",
+      "Méthodologie visuelle et méthodologie auditive",
+      "Langue des signes et langue orale",
+      "Éducation spécialisée et enseignement à domicile"
+    ],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Qu'est-ce qui caractérise l'acquisition de la langue des signes chez les enfants sourds de parents sourds signants ?",
+    "option": [
+      "Elle se produit uniquement à partir de six ans",
+      "L'acquisition n'est pas spontanée",
+      "L'acquisition est spontanée",
+      "Elle est apprise comme la langue orale chez les enfants sourds"
+    ],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Quelles sont les principales modalités de communication présentes dans l'environnement familial des enfants sourds ?",
+    "option": [
+      "Langue des signes uniquement dans les familles sourdes",
+      "Langue des signes langue orale et langue orale soutenue par des systèmes de communication augmentée",
+      "Langue des signes ou langue orale",
+      "Langue orale et lecture labiale"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Pourquoi l'apprentissage de la langue orale chez les enfants sourds est-il considéré comme un processus différent de celui des enfants entendants ?",
+    "option": [
+      "Parce qu'il s'acquiert de manière automatique par exposition passive",
+      "Parce qu'il nécessite un processus intentionnel organisé et prolongé",
+      "Parce qu'il dépend uniquement du reste auditif",
+      "Toutes les propositions sont correctes"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Quelle est la principale voie d'accès à l'apprentissage et à l'information académique chez les élèves présentant une perte auditive ?",
+    "option": [
+      "L'interaction sociale non médiatisée par le langage",
+      "La communication orale",
+      "La lecto-écriture",
+      "L'audition résiduelle"
+    ],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Quels facteurs acquièrent une importance particulière à l'adolescence et conditionnent la manière de vivre la prothèse auditive ?",
+    "option": [
+      "L'opinion des autres",
+      "L'image personnelle",
+      "Le sentiment d'appartenance à un groupe",
+      "Toutes les propositions sont correctes"
+    ],
+    "correctAnswers": 3,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Le rapport audioprothétique se définit comme :",
+    "option": [
+      "Registre de maintenance des appareils auditifs",
+      "Demande d'aides économiques",
+      "Rapport qui recueille l'évaluation audiologique et la proposition d'intervention de l'audioprothésiste",
+      "Rapport médical qui établit le diagnostic de surdité rédigé par un audioprothésiste"
+    ],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "La communauté sourde se caractérise principalement par :",
+    "option": [
+      "Être composée de personnes qui utilisent des appareils auditifs ou des implants cochléaires",
+      "Être composée uniquement de personnes ayant une perte auditive",
+      "Se baser sur la réhabilitation auditive comme élément central",
+      "Partager une identité culturelle"
+    ],
+    "correctAnswers": 3,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "L'audioprothésiste doit faire particulièrement attention lors de la rédaction du rapport parce que :",
+    "option": [
+      "Il ne peut pas décider de la marque et du modèle de l'appareil auditif adapté au patient",
+      "Il ne peut pas indiquer les changements réalisés dans les différentes adaptations d'un même patient",
+      "Il ne peut pas réaliser un diagnostic médical",
+      "Il ne peut pas apporter son interprétation des résultats des tests audiométriques"
+    ],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Qu'est-ce que la perte prélinguale ?",
+    "option": [
+      "La perte auditive qui apparaît après 50 ans",
+      "La perte auditive qui apparaît avant l'acquisition du langage oral",
+      "La perte auditive qui apparaît avant l'acquisition de l'écriture",
+      "La perte auditive qui apparaît avant l'acquisition de la lectura"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Les professionnels spécialisés dans le développement de la communication et du langage oral sont :",
+    "option": [
+      "Les orthophonistes",
+      "Les audioprothésistes",
+      "Les pédiatres",
+      "Les travailleurs sociaux"
+    ],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Quelle est l'une des difficultés de communication fréquentes chez les adultes atteints de surdité post-locutive ?",
+    "option": [
+      "Difficulté à suivre des conversations en groupe",
+      "Impossibilité de comprendre des mots écrits",
+      "Incapacité totale de produire un langage oral",
+      "Perte totale de la mémoire auditive"
+    ],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "La presbyacousie se définit comme :",
+    "option": [
+      "Une perte auditive temporaire causée par l'exposition au bruit",
+      "Une perte auditive produite par des infections de l'oreille moyenne",
+      "Une perte auditive causée par des changements dégénératifs liés à l'âge",
+      "Une perte auditive causée par des traumatismes acoustiques"
+    ],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "La CNSE (Confédération nationale des personnes sourdes) travaille principalement dans des domaines tels que :",
+    "option": [
+      "Production de prothèses auditives",
+      "Exclusivement la recherche scientifique",
+      "Accessibilité, langue des signes, éducation et culture sourde",
+      "Chirurgie auditive et diagnostic médical"
+    ],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Quelle est la personne professionnelle qui détermine si un patient a besoin d'une prothèse auditive ou d'un implant cochléaire ?",
+    "option": [
+      "Le travailleur social",
+      "Le logopède",
+      "L'audioprothésiste",
+      "Le médecin oto-rhino-laryngologiste (ORL)"
+    ],
+    "correctAnswers": 3,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
+    "question": "Chez les personnes atteintes de presbyacousie, quel type de voix est généralement le plus difficile à comprendre ?",
+    "option": [
+      "Seulement les voix qui sont entendues à forte intensité",
+      "Toutes les voix de la même manière, indépendamment de leur fréquence",
+      "La voix des hommes, parce qu'elle a des fréquences plus graves",
+      "La voix des femmes ou des enfants, parce qu'elle a des fréquences plus aiguës"
+    ],
+    "correctAnswers": 3,
+    "image": ""
+  },
+  {
+    "subject": "PCH",
     "question": "Quel est le rôle principal de l'audioprothésiste ?",
     "options": [
       "Entretien implants uniquement",
