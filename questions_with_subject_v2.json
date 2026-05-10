@@ -9021,6 +9021,246 @@
     ],
     "image": ""
   },
+   {
+    "subject": "IEMPA",
+    "question": "Identifiez la structure située au centre du pavillon, servant de \"cuvette\" avant le conduit :",
+    "option": [
+      "La fosse scaphoïde",
+      "La conque",
+      "La cymba de la conque",
+      "L'hélix"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Comment s'appelle la petite saillie cartilagineuse située en avant du méat acoustique ?",
+    "option": [
+      "L'antitragus",
+      "Le tragus",
+      "La racine de l'hélix",
+      "Le lobe"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Quelle structure se divise en une branche supérieure et une branche inférieure ?",
+    "option": [
+      "L'hélix",
+      "L'anti-hélix",
+      "La fosse triangulaire",
+      "Le méat acoustique"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Où se situe le triangle lumineux de Politzer lors d'une otoscopie ?",
+    "option": [
+      "Dans le quadrant postérosupérieur",
+      "Dans le quadrant antéro-inférieur",
+      "Dans le quadrant antérosupérieur",
+      "Dans le quadrant antéro-postérieur"
+    ],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Quelle zone participe à la fois à l'étanchéité et à l'esthétique de l'embout en étant située en avant de l'entrée du CAE ?",
+    "option": [
+      "L'hélix",
+      "L'antitragus",
+      "Le tragus",
+      "La conque"
+    ],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Quelles sont les caractéristiques des embouts thermoplastiques à base d'acrylique souple ?",
+    "option": [
+      "Ils sont rigides à température ambiante",
+      "Ils s'assouplissent à la température du corps",
+      "Ils sont très durables et ne perdent pas leurs caractéristiques",
+      "Réponses A et B sont correctes"
+    ],
+    "correctAnswers": 3,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Quel est l'avantage principal des embouts durs en acrylique ?",
+    "option": [
+      "Ils offrent une étanchéité parfaite pour les pertes profondes",
+      "Ils sont faciles à mettre en place et à nettoyer",
+      "Ils permettent de fabriquer presque toutes sortes d'évents",
+      "Réponses B et C sont correctes"
+    ],
+    "correctAnswers": 3,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Quels inconvénients présentent les embouts très souples ou en biopor ?",
+    "option": [
+      "La durabilité est inférieure à celle de l'acrylique",
+      "Ils ont tendance à jaunir ou à se fissurer plus facilement",
+      "Ils ne permettent pas la fabrication de toutes les formes",
+      "Toutes les réponses ci-dessus"
+    ],
+    "correctAnswers": 3,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Quels sont les avantages des embouts en titane ?",
+    "option": [
+      "Grande légèreté et robustesse",
+      "Excellente tolérance dermatologique",
+      "Possibilité de retouches faciles après impression",
+      "Réponses A et B sont correctes"
+    ],
+    "correctAnswers": 3,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Cas d'un homme de 72 ans (surdité neurosensorielle profonde) : quel embout choisir ?",
+    "option": [
+      "Embout canule en acrylique",
+      "Embout conque en biopor pour le gain élevé",
+      "Embout squelette en titane",
+      "Bouchon anti-bruit"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Cas d'une patiente de 15 ans pratiquant le karaté : quel matériau privilégier ?",
+    "option": [
+      "Acrylique dur",
+      "Biopor (souple) pour la sécurité lors des chocs",
+      "Titane",
+      "Thermoplastique"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Cas d'un patient atteint de Parkinson (surdité modérée) : quel est le facteur prioritaire ?",
+    "option": [
+      "L'esthétique pure",
+      "La dextérité manuelle (choix d'un embout conque en acrylique)",
+      "L'étanchéité acoustique maximale",
+      "Le prix du matériau"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Cas d'une patiente avec des eczémas chroniques dans le conduit : que doit faire l'audioprothésiste ?",
+    "option": [
+      "Utiliser du biopor",
+      "Écarter le biopor et opter pour l'acrylique (facteur lié aux pathologies)",
+      "Ne pas appareiller du tout",
+      "Utiliser un embout en titane sans option de retouche"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Laquelle de ces situations NE constitue PAS une contre-indication obligeant au report de l'empreinte ?",
+    "option": [
+      "Présence d'un corps étranger",
+      "Présence d'exostoses",
+      "Présence d'une otite",
+      "Otomycose"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Quel est l'objectif principal de l'otoscopie avant toute procédure ?",
+    "option": [
+      "Nettoyer le conduit en profondeur",
+      "Diagnostiquer des traitements médicaux",
+      "Vérifier l'absence d'anomalies ou contre-indications du CAE et de la MT",
+      "Mesurer précisément le seuil auditif"
+    ],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Quelle doit être la longueur minimale d'une empreinte au-delà du deuxième coude ?",
+    "option": [
+      "1 mm",
+      "2 mm",
+      "3 mm",
+      "Il n'y a pas d'exigence"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Quelles structures doivent être évaluées systématiquement avant la prise d'empreinte ?",
+    "option": [
+      "Uniquement le CAE",
+      "Le pavillon, le CAE et la membrane tympanique (MT)",
+      "La MT et le CAE seulement",
+      "Le pavillon et le CAE seulement"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "En cas de suspicion d'otomycose, quelle mesure d'hygiène est essentielle ?",
+    "option": [
+      "Utiliser des gants et remplacer le spéculum entre les deux oreilles",
+      "Continuer l'examen normalement",
+      "Nettoyer avec du matériel non stérile",
+      "Utiliser un otoscope pneumatique"
+    ],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Quel type de ventilation est le plus adapté pour éliminer les contaminants à la source ?",
+    "option": [
+      "Ventilation générale",
+      "Extraction localisée",
+      "Ventilation naturelle",
+      "Ventilation circulaire"
+    ],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "IEMPA",
+    "question": "Quel élément utilise-t-on en cas de déversement accidentel de substances chimiques (acides/bases) ?",
+    "option": [
+      "Douche oculaire",
+      "Extincteur",
+      "Neutralisateur",
+      "Douche de sécurité"
+    ],
+    "correctAnswers": 2,
+    "image": ""
+  },
   {
     "subject": "IPE",
     "question": "Définir la valeur différentielle implique :",
