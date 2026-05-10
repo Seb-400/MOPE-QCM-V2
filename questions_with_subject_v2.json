@@ -5744,6 +5744,279 @@
     ],
     "image": ""
   },
+   {
+    "subject": "CAPA",
+    "question": "Un patient adulte présente une otite externe sévère dans l'oreille droite, avec suppuration importante. Sa perte auditive est légère dans cet oreille, avec des fréquences graves bien conservées. Quel type d'appareillage serait le plus adapté ?",
+    "option": ["BTE avec tulipa", "BTE à tube fin avec Open Fit", "RIC avec Open Fit", "ITC"],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Le temps d'attaque (TA) est :",
+    "option": ["Le temps que met la pile à s'activer", "Le temps pour charger un appareil rechargeable", "Le temps pour réagir à une baisse du niveau d'entrée", "Le temps pour réagir à une augmentation soudaine du niveau d'entrée"],
+    "correctAnswers": 3,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Chez un patient présentant une perte auditive légère et bilatérale d'environ 30 dB, et dans le cas où une adaptation monaurale doit être envisagée, quelle oreille doit être équipée en priorité selon les critères d'adaptation ?",
+    "option": ["On adapte la droite si le patient est droitier, et l'oreille gauche si le patient est gaucher", "On adapte l'oreille la plus mauvaise", "S'il est impossible d'adapter l'une des deux oreilles pour des raisons médicales, alors aucune des deux ne pourra être adaptée", "On adapte l'oreille la plus saine"],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Dans une amplification linéaire :",
+    "option": ["Le gain est constant", "Les sons faibles sont moins amplifiés que les sons forts", "Le seuil d'inconfort n'est jamais respecté", "Le gain varie selon le niveau d'entrée"],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Un enfant de 10 ans présente une perte auditive légère, avec des graves bien conservés et une bonne discrimination. Son conduit auditif est sain. Quel type d'appareillage serait le plus adapté ?",
+    "option": ["BTE Super Power avec Open Fit", "CIC", "RIC avec Open Fit", "BTE avec un dôme fermé"],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Un patient âgé, présentant une perte auditive profonde (95-100 dB) sur les graves et moyennes fréquences, et ayant une mauvaise motricité fine, doit être appareillé. Quel choix feriez-vous ?",
+    "option": ["BTE avec un moule sur mesure fermé", "CIC", "Un RIC avec Open Fit", "BTE tube fin avec Open Fit"],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Dans une amplification non linéaire, le point d'inflexion correspond à :",
+    "option": ["Le niveau où la compression commence à agir", "Le début du fonctionnement du peak clipping", "La limite de la plage dynamique", "La saturation totale de l'appareil"],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Dans une mesure HIT (Hearing Instrument Test), où doivent être placés les microphones ?",
+    "option": ["Le microphone de référence doit être éloigné et le microphone de mesure avec l'écouteur", "Le microphone de référence doit être positionné devant le microphone de l'aide, tandis que le microphone de mesure doit être placé en face de l'écouteur", "Un microphone doit être placé juste devant l'autre, alignés"],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Pour retirer un BTE avec moulage, il faut :",
+    "option": ["Tirer sur l'aide auditive derrière l'oreille", "Dérouter le moulage sans tirer sur le tube", "Toutes les réponses sont correctes", "Tirer sur le tube"],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "La stimulation controlatérale est principalement utilisée en cas de :",
+    "option": ["Surdité bilatérale symétrique", "Presbyacousie", "Cophose unilatérale", "Perte conductrice légère"],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Pour réduire un son aigu fort gênant, on peut :",
+    "option": ["Réduire le gain aigu pour les sons forts", "Diminuer le ratio de compression dans les bandes aiguës", "Augmenter le gain des fréquences graves", "Augmenter la sortie maximale"],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Si l'aide auditive siffle lors du test anti-feedback, il faut d'abord :",
+    "option": ["Vérifier la bonne mise en place du moule", "Désactiver la compression", "Changer immédiatement l'appareil", "Augmenter le gain"],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Quelle est la base indispensable de toute programmation d'une aide auditive ?",
+    "option": ["Le type d'aide auditive choisi", "Le logiciel du fabricant", "L'audiométrie complète du patient", "Toutes les réponses sont correctes"],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Avant toute modification de programmation face à une plainte, il faut d'abord :",
+    "option": ["Réduire la compression", "Vérifier les éléments non électroniques", "Changer le programme actif", "Augmenter le gain global"],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Le positionnement du téléphone avec un BTE doit être :",
+    "option": ["Toutes les réponses sont correctes", "Identique à un intra-auriculaire", "Orienté vers le microphone sur le conduit auditif", "Orienté vers le microphone situé au-dessus du pavillon"],
+    "correctAnswers": 3,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Un système transcutané passif se caractérise par :",
+    "option": ["Une vibration produite par le processeur externe", "Une stimulation mécanique indirecte du nerf auditif par vibration osseuse", "Une transmission du son par voie osseuse directement vers la cochlée", "Une transmission du son par voie osseuse vers la chaine ossiculaire"],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Un ratio de compression élevé (ex. 4:1) entraîne généralement :",
+    "option": ["Plus de confort et plus de discrimination", "Plus de confort et moins de discrimination", "Moins de confort et moins de discrimination", "Plus de discrimination et moins de confort"],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Si le patient dit \"je n'entends pas clair, net, propre\", il faut prioritairement :",
+    "option": ["Augmenter la ventilation", "Augmenter les fréquences moyennes et aiguës", "Augmenter les graves", "Réduire le MPO"],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Une plainte de type sons métalliques est le plus souvent causée par :",
+    "option": ["Une ventilation excessive", "Un manque de compression générale", "Un gain excessif dans les aigus", "Un gain excessif dans les graves"],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Le MPO correspond :",
+    "option": ["À la pression de sortie maximale réglée dans le logiciel", "À la limite technique maximale de l'appareil", "Au gain appliqué aux sons doux", "À la pression acoustique du tympan"],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "La perception amplifiée de sa propre voix au début est :",
+    "option": ["Rare et liée uniquement aux pertes sévères", "Un effet du contrôle du volume", "Fréquente et généralement transitoire", "Anormale et signe d'une mauvaise programmation"],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Quelle relation concernant l'OSPL90 est correcte ?",
+    "option": ["OSPL90 = capacité maximale technique de l'aide auditive", "OSPL90 = perception du patient", "Toutes les réponses sont correctes", "OSPL90 = réglage de programmation"],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Une plainte \"j'entends plus de loin que de près\" indique souvent :",
+    "option": ["Un gain insuffisant pour les sons moyens", "Un MPO trop élevé", "Une ventilation insuffisante", "Un excès de gain pour les sons doux"],
+    "correctAnswers": 3,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Quel est l'objectif principal des mesures REM (Real Ear Measurements) ?",
+    "option": ["Évaluer la compréhension de la parole dans le bruit", "Vérifier objectivement l'amplification de l'aide auditive dans l'oreille réelle du patient", "Mesurer la perte auditive du patient en cabine insonorisée", "Déterminer le seuil de douleur auditive du patient"],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Un patient présente une perte neurosensorielle profonde bilatérale d'origine rétrocochléaire avec atteinte du nerf auditif (VIII). Quel type d'implant est indiqué ?",
+    "option": ["Implant à conduction osseuse", "Implant d'oreille moyenne", "Implant cochléaire", "Implant de tronc cérébral"],
+    "correctAnswers": 3,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Dans les mesures REM, la résonance naturelle maximale du conduit auditif externe chez l'adulte se situe généralement à :",
+    "option": ["4500 Hz avec une amplification de 5 dB", "6000 Hz avec une amplification de 30 dB", "2700 Hz avec une amplification de 20 dB", "1000 Hz avec une amplification de 10 dB"],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Concernant le principe du lieu dans le fonctionnement de l'implant cochléaire, quelle affirmation est correcte ?",
+    "option": ["Détermine la fréquence du son selon la zone stimulée dans la cochlée", "Permet d'identifier l'intensité du son en fonction du nombre d'électrodes activées", "Reproduit la durée du son grâce à la modulation temporelle", "Détermine le rythme du son à partir de la fréquence des impulsions électriques"],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Un inconvénient principal des questionnaires ouverts est :",
+    "option": ["Absence d'objectifs personnalisés", "Manque d'informations subjectives", "Difficulté de comparaison entre patients", "Temps d'application très long"],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Dans un système FM, l'émetteur et le récepteur doivent :",
+    "option": ["Être connectés par câble", "Être synchronisés sur le même canal", "Utiliser le même patterne", "Être à moins de 1 mètre"],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Quels sont les trois facteurs qui diminuent le rapport signal/bruit ?",
+    "option": ["La distance, la réverbération et le bruit de fond", "Le type d'embout, le dôme et le tube", "La pile, l'écouteur et le microphone", "Le gain, le MPO et la compression"],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Qu'est-ce que la cavité résiduelle ?",
+    "option": ["L'espace situé entre les osselets", "Le volume d'air restant entre le moule, dôme ou l'aide auditive et le tympan", "L'espace situé derrière le tympan", "L'espace entre l'oreille moyenne et la cochlée"],
+    "correctAnswers": 1,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Pourquoi est-il obligatoire d'effectuer une otoscopie avant de réaliser une mesure REM ?",
+    "option": ["Pour vérifier l'absence de cérumen et l'anatomie du conduit", "Pour régler le volume de l'aide auditive", "Pour choisir la taille de la sonde", "Pour calibrer le haut-parleur"],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Quel est le principe fondamental de fonctionnement de l'implant cochléaire ?",
+    "option": ["Il stimule électriquement les fibres nerveuses résiduelles de la cochlée", "Il amplifie le son mécaniquement", "Il vibre sur l'os mastoïde", "Il régénère les cellules ciliées"],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Selon les experts, quel est l'âge idéal pour l'adaptation d'une prothèse auditive chez l'enfant ?",
+    "option": ["Dans les 6 premiers mois de vie", "À partir de 3 ans", "Entre 12 et 18 mois", "Après 6 ans"],
+    "correctAnswers": 0,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Le questionnaire GHABP est considéré comme :",
+    "option": ["Un questionnaire mixte", "Un questionnaire ouvert", "Un questionnaire fermé", "Un test objectif"],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Quel est le test idéal pour un enfant de 5 ans ?",
+    "option": ["Audiométrie comportementale avec renforcement visuel", "Audiométrie comportementale non conditionnée", "Test verbal avec mots phonétiquement équilibrés, adaptés à son âge", "Test de jouets sonores en champ libre"],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Quelles parties de l'implant de tronc cérébral se trouvent à l'extérieur ?",
+    "option": ["Le récepteur et les électrodes", "Le microphone, le processeur et le récepteur", "Le microphone, le processeur et le transmetteur", "Le microphone et le récepteur"],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Le moule adaptateur chez l'enfant doit être :",
+    "option": ["Rigide pour augmenter le gain", "Métallique pour plus de durabilité", "Souple pour assurer confort et sécurité", "Identique à celui de l'adulte"],
+    "correctAnswers": 2,
+    "image": ""
+  },
+  {
+    "subject": "CAPA",
+    "question": "Pourquoi est-il nécessaire de mesurer la satisfaction des utilisateurs en audiologie ?",
+    "option": ["Pour remplacer les tests objectifs", "Pour éviter les réglages techniques", "Pour augmenter automatiquement le gain", "Parce que les sensations subjectives influencent l'acceptation de l'appareillage"],
+    "correctAnswers": 3,
+    "image": ""
+  },
   {
     "subject": "CAPA",
     "question": "Quels sont les paramètres qui déterminent l'impédance ?",
