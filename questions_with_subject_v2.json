@@ -1400,6 +1400,498 @@
     ],
     "image": ""
   },
+    {
+    "subject": "ANGLAIS",
+    "question": "Which phrase expresses gratitude specifically related to documents or reports provided by the patient?",
+    "options": [
+      "Thanks for bringing your medical report",
+      "I would be very grateful...",
+      "Thank you for everything",
+      "We appreciate your visit"
+    ],
+    "correctAnswers": [0],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "What is the French translation of 'Sorry for the delay'?",
+    "options": [
+      "Excusez-moi",
+      "Enchanté(e) de faire votre connaissance",
+      "Désolé(e) pour le dérangement",
+      "Desolé(e) pour le retard"
+    ],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which phrase is not a farewell?",
+    "options": [
+      "See you soon",
+      "Please don't hesitate to contact me. I look forward to hearing from you.",
+      "I don't think we've met",
+      "I hope you feel better soon. Take care."
+    ],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "When starting a conversation on the telephone, which specific phrase is used to establish your identity?",
+    "options": [
+      "Hello, this is [your name] speaking",
+      "Hi, it's [your name], take care",
+      "Good morning! I'm great!",
+      "Hi! What's new?"
+    ],
+    "correctAnswers": [0],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which of the following is considered the most appropriate formal response to the greeting \"How are you?\":",
+    "options": [
+      "I'm doing alright",
+      "I'm fine, thank you",
+      "Hey!",
+      "What's up?"
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which structure correctly expresses that you like one item more than another?",
+    "options": [
+      "I think so too",
+      "I'd rather (do X)",
+      "I prefer (X) than (Y)",
+      "I like (X) better than (Y)"
+    ],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "A colleague states, \"Many patients prefer discreet hearing aids.\" You respond with, \"I think so too.\" What does this response indicate?",
+    "options": [
+      "Disagreement",
+      "Agreement",
+      "Preference",
+      "Mild uncertainty"
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which is the correct sentence?",
+    "options": [
+      "I'd rather explain all options before making a recommendation",
+      "I rather explain all options before making a recommendation",
+      "I'd rather to explain all options before making a recommendation",
+      "I rather explaining all options before making a recommendation"
+    ],
+    "correctAnswers": [0],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "A colleague recommends a specific device, stating, \"I believe digital hearing aids offer better sound quality.\" You wish to express strong agreement. Which option would you choose?",
+    "options": [
+      "I disagree",
+      "That's true",
+      "I'm not sure about that",
+      "I see your point, but..."
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which phrase is typically used to introduce an opinion based on your personal knowledge or professional involvement?",
+    "options": [
+      "I agree with...",
+      "I think that...",
+      "As far as I'm concerned...",
+      "I'd rather..."
+    ],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "The Pinna (or Auricular Pavilion) is the outer portion of the ear that can be seen. It primarily helps with:",
+    "options": [
+      "Pressure equalization",
+      "Converting nerve impulses to vibrations",
+      "Sound localization",
+      "Mechanical sound transfer"
+    ],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "The three ossicles (Malleus, Anvil, Stirrup) are located in the tympanic cavity. Which term best describes their collective function?",
+    "options": [
+      "Sensing balance",
+      "Ventilating the middle ear",
+      "Collecting sound",
+      "Mechanically moving to transfer sound"
+    ],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "The semicircular canals are three U-shaped canals that are part of the vestibular system, primarily responsible for the awareness of:",
+    "options": [
+      "Pressure changes",
+      "Sound localization",
+      "Movement and balance",
+      "Word distinction"
+    ],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which structure connects the middle ear to the nasopharynx and helps equalize air pressure on both sides of the eardrum?",
+    "options": [
+      "The Oval Window",
+      "The Vestibulocochlear nerve or 8th cranial nerve",
+      "The Semicircular canals",
+      "The Eustachian tube"
+    ],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "The Hearing Handicap Inventory for the Elderly - Screening Version (HHIE-S) is a 10-item questionnaire developed to assess how an individual perceives:",
+    "options": [
+      "The need for a hearing aid prescription",
+      "The balance problems associated with the inner ear",
+      "The severity of their sensorineural hearing loss",
+      "The social and emotional effects of hearing loss"
+    ],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "A patient with a hearing threshold between 41 and 70 dB HL is classified as having which grade of hearing loss?",
+    "options": [
+      "Profound",
+      "Severe",
+      "Mild",
+      "Moderate"
+    ],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which component of a hearing aid is responsible for converting amplified electrical signals back into sound waves?",
+    "options": [
+      "The microphone",
+      "The earphone/receiver",
+      "The amplifier",
+      "The T-coil"
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "What is the main function of the \"Feedback suppression\" feature in modern hearing aids?",
+    "options": [
+      "To cancel out whistling or squealing sounds when the device is near a phone",
+      "To pick up sound from a specific direction",
+      "To increase the frequency of digital signals",
+      "To transform sound waves into digital bits"
+    ],
+    "correctAnswers": [0],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "How does a digital hearing aid differ from an analog one?",
+    "options": [
+      "It is always larger than analog models",
+      "It does not require a battery to function",
+      "It only amplifies continuous physical sound waves",
+      "It uses a computer chip to manipulate sound and distinguish between noise and speech"
+    ],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "After giving the client instructions, how should you check their understanding professionally?",
+    "options": [
+      "Do you understand me?",
+      "Is that clear for you?",
+      "Would you like me to explain again?",
+      "a)b)c) are correct"
+    ],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which expression could you use to clarify information?",
+    "options": [
+      "Could you speak faster, please?",
+      "So, you are asking about...?",
+      "Is this the correct product?",
+      "Can I help you with anything else?"
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Always add please when possible, use a soft tone (intonation matters) and avoid sounding too direct (e.g., Repeat that!) are tips for...",
+    "options": [
+      "asking informal questions",
+      "asking polite questions",
+      "writing a complaint",
+      "asking yes/no questions"
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which word means \"Quand\"?",
+    "options": [
+      "Who",
+      "Where",
+      "What",
+      "When"
+    ],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which is the correct sentence?",
+    "options": [
+      "Do need you more information?",
+      "Need you more information?",
+      "Do you need more information?",
+      "You need more information?"
+    ],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which structure is evaluated during otoscopy?",
+    "options": [
+      "Brain",
+      "Tympanic membrane",
+      "Auditory nerve",
+      "Cochlea"
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "What does Impedance Audiometry assess?",
+    "options": [
+      "Inner ear sensitivity",
+      "Patient satisfaction",
+      "Middle ear function",
+      "Speech intelligibility"
+    ],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "What is the main objective of hearing aid verification?",
+    "options": [
+      "To ensure correct amplification performance",
+      "To perform medical diagnosis",
+      "To evaluate patient satisfaction",
+      "To select the hearing aid model"
+    ],
+    "correctAnswers": [0],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Hearing aid validation focuses mainly on:",
+    "options": [
+      "Technical characteristics of the device",
+      "Patient satisfaction and real-life benefit",
+      "Ear anatomy",
+      "Audiometric thresholds"
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which of these is NOT included in the follow-up?",
+    "options": [
+      "Periodic audiological reviews",
+      "Fine-tuning of hearing aids",
+      "Patient counseling and education",
+      "A monthly call to the customer to ensure that the device is still working properly."
+    ],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which expression is the most polite to ask for someone on the phone?",
+    "options": [
+      "Could I speak to Mr Brown, please?",
+      "Is Mr Brown there?",
+      "Put me through to Brown",
+      "I want to talk to Mr Brown"
+    ],
+    "correctAnswers": [0],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which sentence is best when you need time to check information?",
+    "options": [
+      "Hold on",
+      "I don't know",
+      "Could you hold the line for a moment, please?",
+      "Wait"
+    ],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "What is the correct meaning of \"to take a message\"?",
+    "options": [
+      "To send an email",
+      "To cancel an appointment",
+      "To write down information for someone",
+      "To transfer the call"
+    ],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "In a pediatric case history, why is it clinically relevant to ask about previous illnesses such as measles or rubella?",
+    "options": [
+      "Because they help the audiologist determine the patient's lifestyle",
+      "Because they are the primary cause of wax buildup in the ear canal",
+      "Because it is necessary to calibrate the audiometer's intensity.",
+      "Because many childhood illnesses affect hearing development"
+    ],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Where are the \"Vertebrae\" located?",
+    "options": [
+      "In the shoulder complex",
+      "Along the spine",
+      "Between the elbow and the wrist",
+      "In the pelvic region only"
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which part of the face is located specifically above the eyes?",
+    "options": [
+      "Jaw",
+      "Cheek",
+      "Chin",
+      "Forehead"
+    ],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "When should a professional use \"whether\" instead of \"if\" when seeking confirmation?",
+    "options": [
+      "Only when the answer is \"yes\"",
+      "When there are two options or alternatives",
+      "Only in informal conversations",
+      "When the sentence is in the past tense"
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Finish the following sentence: \"I was wondering...",
+    "options": [
+      "you coming with me\"",
+      "if you could come with me\"",
+      "if can you come with me\"",
+      "you can come with me\""
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which of the next commands is the softened version of this one: \"Tell me when you're taking your holidays\"",
+    "options": [
+      "I'd like to know when you're taking your holidays, please",
+      "Let me know when you are taking your holidays now",
+      "Why are you taking your holidays, please?",
+      "When are you taking your holidays?"
+    ],
+    "correctAnswers": [0],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which clinical sign suggests a patient might be suffering from hearing loss?",
+    "options": [
+      "High-pitched sounds are easy to distinguish",
+      "The patient speaks much more quietly than others",
+      "Background noise makes words difficult to understand",
+      "Sounds appear significantly louder and clearer"
+    ],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "If you are scanning a report for \"Primary Symptoms,\" which term are you most likely to look for?",
+    "options": [
+      "Otalgia",
+      "Phonak Audéo B70-R",
+      "Satisfactory adaptation",
+      "Correct hearing"
+    ],
+    "correctAnswers": [0],
+    "image": ""
+  },
+  {
+    "subject": "ANGLAIS",
+    "question": "Which of these is NOT a treatment option?",
+    "options": [
+      "Surgical intervention",
+      "Hearing aids",
+      "Assistive reading devices",
+      "Removal of earwax"
+    ],
+    "correctAnswers": [2],
+    "image": ""
+  },
   {
     "subject": "ACAPA",
     "question": "Qui décrivit dans sa Phonurgia Nova (1673) divers dispositifs acoustiques destinés à la transmission et à l’amplification de la voix ?",
