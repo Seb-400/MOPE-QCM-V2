@@ -10987,8 +10987,8 @@
   },
  {
     "subject": "IPE",
-    "question": "Le format « En tant que 'utilisateur', j’ai besoin de 'fonction' pour 'bénéfice' » correspond à :",
-    "option": [
+    "question": "Le format « En tant que [utilisateur], j’ai besoin de [fonction] pour [bénéfice] » correspond à :",
+    "options": [
       "Proposition de valeur",
       "User Story Mapping",
       "Segmentation du marché",
@@ -11000,7 +11000,7 @@
   {
     "subject": "IPE",
     "question": "Une description claire du bénéfice qu’un service ou produit apporte à l’utilisateur correspond à :",
-    "option": [
+    "options": [
       "User Story Mapping",
       "Analyse concurrentielle",
       "Proposition de valeur",
@@ -11012,7 +11012,7 @@
   {
     "subject": "IPE",
     "question": "Le portail télématique permettant d’effectuer toutes les démarches de création d’entreprise en un seul endroit est :",
-    "option": [
+    "options": [
       "Registre central du commerce",
       "Guichet unique / Point d’Attention à l’Entrepreneur (PAE)",
       "Chambre de commerce européenne",
@@ -11024,7 +11024,7 @@
   {
     "subject": "IPE",
     "question": "L’impôt prélevé à 25 % sur les bénéfices nets d’une société correspond à :",
-    "option": [
+    "options": [
       "TVA",
       "Impôt sur le revenu",
       "Impôt sur les sociétés",
@@ -11036,7 +11036,7 @@
   {
     "subject": "IPE",
     "question": "La division des clients potentiels en groupes selon des critères communs (âge, revenus, localisation...) correspond à :",
-    "option": [
+    "options": [
       "Positionnement marketing",
       "Analyse comportementale",
       "Segmentation du marché",
@@ -11048,7 +11048,7 @@
   {
     "subject": "IPE",
     "question": "Quelle affirmation décrit correctement l’entrepreneur individuel (indépendant) ?",
-    "option": [
+    "options": [
       "Responsabilité limitée au capital investi",
       "Capital minimum obligatoire de 10 000 €",
       "Responsabilité illimitée sur le patrimoine personnel",
@@ -11060,7 +11060,7 @@
   {
     "subject": "IPE",
     "question": "Observer les produits, prix et segments des autres entreprises afin de détecter des opportunités correspond à :",
-    "option": [
+    "options": [
       "Analyse de la concurrence",
       "Segmentation marketing",
       "Audit fiscal",
@@ -11072,7 +11072,7 @@
   {
     "subject": "IPE",
     "question": "La technique consistant à demander plusieurs fois « pourquoi ? » pour trouver la cause profonde d’un problème est :",
-    "option": [
+    "options": [
       "Diagramme d’Ishikawa",
       "Analyse SWOT",
       "Technique des 5 pourquoi",
@@ -11084,7 +11084,7 @@
   {
     "subject": "IPE",
     "question": "Le programme européen qui finance jusqu’à 50 % des projets de transition écologique et numérique est :",
-    "option": [
+    "options": [
       "Horizon Europe",
       "FEDER",
       "Next Generation EU",
@@ -11096,7 +11096,7 @@
   {
     "subject": "IPE",
     "question": "L’organisme où l’on vérifie la disponibilité d’un nom commercial et obtient le certificat d’exclusivité est :",
-    "option": [
+    "options": [
       "Chambre des métiers",
       "Registre central du commerce",
       "Tribunal de commerce",
@@ -11108,7 +11108,7 @@
   {
     "subject": "IPE",
     "question": "L’Agenda 2030 établit :",
-    "option": [
+    "options": [
       "10 objectifs et 100 cibles",
       "17 ODD et 169 cibles",
       "12 ODD et 2030 actions",
@@ -11120,7 +11120,7 @@
   {
     "subject": "IPE",
     "question": "Dans l’approche Lean Startup, un MVP sert principalement à :",
-    "option": [
+    "options": [
       "Lancer immédiatement un produit final complet",
       "Réduire les coûts fiscaux de lancement",
       "Valider l’existence d’une demande réelle avant investissement massif",
@@ -11132,7 +11132,7 @@
   {
     "subject": "IPE",
     "question": "Les méthodologies agiles se caractérisent par une approche :",
-    "option": [
+    "options": [
       "Linéaire et figée",
       "Itérative avec ajustements progressifs",
       "Administrative et réglementaire",
@@ -11144,7 +11144,7 @@
   {
     "subject": "IPE",
     "question": "Quelle méthode commence par une phase d’empathie visant à observer le comportement de l’utilisateur ?",
-    "option": [
+    "options": [
       "SWOT",
       "Brainstorming",
       "Design Thinking",
@@ -11156,7 +11156,7 @@
   {
     "subject": "IPE",
     "question": "Le seuil de rentabilité correspond :",
-    "option": [
+    "options": [
       "Au chiffre d’affaires maximal atteignable",
       "Au nombre minimum de clients nécessaire pour couvrir les coûts",
       "Au bénéfice net annuel attendu",
@@ -11168,7 +11168,7 @@
   {
     "subject": "IPE",
     "question": "Le triple bilan mesure la performance d’une entreprise selon :",
-    "option": [
+    "options": [
       "Finance, fiscalité, innovation",
       "Commercial, RH, juridique",
       "Économique, sociale et environnementale",
@@ -11180,7 +11180,7 @@
   {
     "subject": "IPE",
     "question": "Le modèle 303 correspond à :",
-    "option": [
+    "options": [
       "La déclaration d’impôt sur les sociétés",
       "La déclaration de TVA périodique",
       "Une demande de subvention européenne",
@@ -11192,7 +11192,7 @@
   {
     "subject": "IPE",
     "question": "Selon le Lean Startup, avant d’investir, il faut vérifier qu’un ______ est réellement important pour la cible :",
-    "option": [
+    "options": [
       "produit",
       "besoin fiscal",
       "problème",
@@ -11204,7 +11204,7 @@
   {
     "subject": "IPE",
     "question": "Le brainstorming est :",
-    "option": [
+    "options": [
       "Une analyse stratégique concurrentielle",
       "Une réunion de génération rapide d’idées sans critiques immédiates",
       "Une méthode d’analyse financière",
@@ -11216,7 +11216,7 @@
   {
     "subject": "IPE",
     "question": "Pourquoi le lien avec l’Agenda 2030 est-il important dans un projet entrepreneurial ?",
-    "option": [
+    "options": [
       "Pour obtenir automatiquement un financement",
       "Parce qu’il remplace le business plan",
       "Car il constitue un critère de viabilité future et de durabilité",
@@ -11228,7 +11228,7 @@
   {
     "subject": "IPE",
     "question": "L’aptitude à utiliser les technologies numériques comme source d’innovation correspond à :",
-    "option": [
+    "options": [
       "Créativité",
       "Lean Startup",
       "Compétence numérique",
@@ -11240,7 +11240,7 @@
   {
     "subject": "IPE",
     "question": "Quelle méthodologie repose sur le prototypage rapide et la validation continue ?",
-    "option": [
+    "options": [
       "Innovation incrémentale",
       "Lean Startup",
       "Créativité",
@@ -11252,7 +11252,7 @@
   {
     "subject": "IPE",
     "question": "L’amélioration progressive d’un produit ou d’un processus existant correspond à :",
-    "option": [
+    "options": [
       "Innovation radicale",
       "Innovation incrémentale",
       "Lean Startup",
@@ -11264,7 +11264,7 @@
   {
     "subject": "IPE",
     "question": "Quel concept désigne un cadre international visant un développement économique, social et environnemental durable ?",
-    "option": [
+    "options": [
       "Agenda 2030",
       "Lean Startup",
       "Créativité",
@@ -11276,7 +11276,7 @@
   {
     "subject": "IPE",
     "question": "La capacité à générer des idées originales et utiles correspond à :",
-    "option": [
+    "options": [
       "Innovation incrémentale",
       "Compétence numérique",
       "Créativité",
@@ -11288,7 +11288,7 @@
   {
     "subject": "IPE",
     "question": "Quelle compétence permet de comprendre les émotions et les besoins d’un patient dans un contexte professionnel ?",
-    "option": [
+    "options": [
       "Assertivité",
       "Empathie",
       "Écoute active",
@@ -11300,7 +11300,7 @@
   {
     "subject": "IPE",
     "question": "Le fait d’exprimer ses idées et ses limites de manière claire et respectueuse correspond à :",
-    "option": [
+    "options": [
       "Assertivité",
       "Travail collaboratif",
       "Empathie",
@@ -11312,7 +11312,7 @@
   {
     "subject": "IPE",
     "question": "Quelle compétence repose sur l’attention portée au discours de l’interlocuteur et la reformulation ?",
-    "option": [
+    "options": [
       "Intelligence émotionnelle",
       "Travail collaboratif",
       "Écoute active",
@@ -11324,7 +11324,7 @@
   {
     "subject": "IPE",
     "question": "La capacité à reconnaître, réguler et utiliser ses propres émotions correspond à :",
-    "option": [
+    "options": [
       "Empathie",
       "Intelligence émotionnelle",
       "Assertivité",
@@ -11336,7 +11336,7 @@
   {
     "subject": "IPE",
     "question": "Quel concept favorise la coopération et la responsabilité partagée au sein d’une équipe ?",
-    "option": [
+    "options": [
       "Travail collaboratif",
       "Assertivité",
       "Intelligence émotionnelle",
@@ -11348,7 +11348,7 @@
   {
     "subject": "IPE",
     "question": "Le processus d’insertion professionnelle commence par une recherche bien :",
-    "option": [
+    "options": [
       "ciblée",
       "planifiée",
       "automatisée",
@@ -11360,7 +11360,7 @@
   {
     "subject": "IPE",
     "question": "Les agences de placement et les bourses d’emploi des centres de formation sont des ressources :",
-    "option": [
+    "options": [
       "numériques",
       "conventionnelles",
       "privées",
@@ -11372,7 +11372,7 @@
   {
     "subject": "IPE",
     "question": "LinkedIn permet principalement d’augmenter sa ______ professionnelle.",
-    "option": [
+    "options": [
       "visibilité",
       "rémunération",
       "mobilité",
@@ -11384,7 +11384,7 @@
   {
     "subject": "IPE",
     "question": "Les portails spécialisés permettent de filtrer les offres selon la spécialité et le type de :",
-    "option": [
+    "options": [
       "secteur",
       "contrat",
       "diplôme",
@@ -11396,7 +11396,7 @@
   {
     "subject": "IPE",
     "question": "Les outils d’intelligence artificielle peuvent aider à adapter un CV pour passer les filtres automatiques appelés :",
-    "option": [
+    "options": [
       "CRM",
       "ATS",
       "SEO",
@@ -11408,7 +11408,7 @@
   {
     "subject": "IPE",
     "question": "Avant de postuler, il faut analyser les critères d’______ du poste au profil du candidat.",
-    "option": [
+    "options": [
       "adaptation",
       "adéquation",
       "orientation",
@@ -11420,7 +11420,7 @@
   {
     "subject": "IPE",
     "question": "La lettre de motivation doit exprimer le projet professionnel et la :",
-    "option": [
+    "options": [
       "compétence",
       "motivation",
       "disponibilité",
@@ -11432,7 +11432,7 @@
   {
     "subject": "IPE",
     "question": "La marque personnelle repose sur la compétence, la visibilité et la :",
-    "option": [
+    "options": [
       "performance",
       "crédibilité",
       "réputation",
@@ -11444,7 +11444,7 @@
   {
     "subject": "IPE",
     "question": "La méthode STAR sert à structurer ses réponses lors d’un :",
-    "option": [
+    "options": [
       "recrutement",
       "entretien",
       "concours",
@@ -11456,7 +11456,7 @@
   {
     "subject": "IPE",
     "question": "Le Passeport Europass facilite la reconnaissance des qualifications dans tous les pays de :",
-    "option": [
+    "options": [
       "l’OCDE",
       "l’Union européenne / Europe",
       "l’espace Schengen uniquement",
