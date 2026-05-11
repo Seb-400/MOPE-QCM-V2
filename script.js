@@ -51,12 +51,14 @@ fetch('./questions_with_subject_v2.json')
     .then(data => {
         allQuestions = data.map((q, index) => {
             // ID UNIQUE PAR MATIÈRE + QUESTION
-            const uniqueId = q.id || btoa(
-                unescape(
-                    encodeURIComponent(`${q.subject}::${q.question}`)
-                )
-            ).substring(0, 40);
 
+            const uniqueId = btoa(
+                unescape(
+                    encodeURIComponent(
+                        `${q.subject}::${q.question}::${q.options.join("|")}::${q.correctAnswers.join(",")}`
+                    )
+              )
+            ).substring(0, 80);
             return {
                 ...q,
                 id: uniqueId
