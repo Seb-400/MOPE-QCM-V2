@@ -3890,7 +3890,8 @@
     "question": "Quel type de moule est recommandé pour les personnes ágées?",
     "options": [
       "Un moule hypoallergénique",
-      "Un moule en silicone souple c Un moule dur",
+      "Un moule en silicone souple",
+      "Un moule dur",
       "Un moule en métal"
     ],
     "correctAnswers": [
