@@ -10987,7 +10987,7 @@
   },
  {
     "subject": "IPE",
-    "question": "Le format « En tant que [utilisateur], j’ai besoin de [fonction] pour [bénéfice] » correspond à :",
+    "question": "Le format « En tant que 'utilisateur', j’ai besoin de 'fonction' pour 'bénéfice' » correspond à :",
     "option": [
       "Proposition de valeur",
       "User Story Mapping",
