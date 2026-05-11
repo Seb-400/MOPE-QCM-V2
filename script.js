@@ -1,6 +1,6 @@
 /**
- * MOTEUR DE QUIZ - VARIANTE APPRENTISSAGE CONTINU
- * Les erreurs ne sont pas enregistrées : la question revient tant qu'elle n'est pas réussie.
+ * MOTEUR DE QUIZ - VERSION CORRIGÉE
+ * Correction bug de progression inter-matières
  */
 
 let allQuestions = [];
@@ -11,10 +11,18 @@ let mistakes = [];
 let startTime = null;
 let currentShuffledOptions = [];
 
-const STORAGE_KEY = "mope_quiz_progress";
+// nouvelle clé pour éviter de réutiliser l'ancien cache corrompu
+const STORAGE_KEY = "mope_quiz_progress_v2";
 
-// --- GESTION DE LA PROGRESSION ---
-const getAnsweredIds = () => JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+// ==================== STOCKAGE ====================
+
+const getAnsweredIds = () => {
+    try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+    } catch {
+        return [];
+    }
+};
 
 const saveSuccess = (id) => {
     const answered = getAnsweredIds();
@@ -31,157 +39,232 @@ const resetProgress = () => {
     }
 };
 
-/**
- * CHARGEMENT DU JSON - CORRECTION DU CHEMIN
- */
-fetch('./questions_with_subject_v2.json') // Suppression du "(2)" qui causait la 404
+// ==================== CHARGEMENT JSON ====================
+
+fetch('./questions_with_subject_v2.json')
     .then(response => {
         if (!response.ok) {
-            throw new Error(`Erreur 404 : Le fichier "questions_with_subject_v2.json" est introuvable sur le serveur.`);
+            throw new Error("Impossible de charger questions_with_subject_v2.json");
         }
-        return response.text();
+        return response.json();
     })
-    .then(text => {
-        try {
-            allQuestions = JSON.parse(text.trim()).map((q, index) => ({
+    .then(data => {
+        allQuestions = data.map((q, index) => {
+            // ID UNIQUE PAR MATIÈRE + QUESTION
+            const uniqueId = q.id || btoa(
+                unescape(
+                    encodeURIComponent(`${q.subject}::${q.question}`)
+                )
+            ).substring(0, 40);
+
+            return {
                 ...q,
-                id: q.id || btoa(unescape(encodeURIComponent(q.question))).substring(0, 24)
-            }));
-            populateSubjects();
-            console.log("Fichier chargé avec succès !");
-        } catch (e) {
-            console.error("Erreur de lecture JSON :", e);
-            alert("Le fichier JSON est présent mais contient une erreur de syntaxe.");
-        }
+                id: uniqueId
+            };
+        });
+
+        populateSubjects();
+        console.log("Questions chargées :", allQuestions.length);
     })
-    .catch(error => {
-        console.error("Erreur critique :", error);
-        alert(error.message);
+    .catch(err => {
+        console.error(err);
+        alert(err.message);
     });
 
+// ==================== MATIÈRES ====================
+
 function populateSubjects() {
-  const answeredIds = getAnsweredIds(); // IDs réellement en cache
-  const select = document.getElementById("subject-select");
-  
-  // On filtre pour ne garder que les questions avec un sujet texte 
-  const validQuestions = allQuestions.filter(q => q.subject && q.subject.trim() !== "");
-  const subjects = [...new Set(validQuestions.map(q => q.subject))];
-  
-  select.innerHTML = '<option value="">-- Choisissez une matière --</option>';
+    const answeredIds = getAnsweredIds();
+    const select = document.getElementById("subject-select");
 
-  subjects.forEach(subject => {
-    const questionsInSub = validQuestions.filter(q => q.subject === subject);
-    
-    // On ne compte que les IDs uniques qui sont présents dans answeredIds [cite: 1, 4]
-    const doneIds = questionsInSub
-      .filter(q => answeredIds.includes(q.id))
-      .map(q => q.id);
-    
-    const doneCount = [...new Set(doneIds)].length;
-    const totalCount = [...new Set(questionsInSub.map(q => q.id))].length;
+    const validQuestions = allQuestions.filter(
+        q => q.subject && q.subject.trim() !== ""
+    );
 
-    const option = document.createElement("option");
-    option.value = subject;
-    option.textContent = `${subject} (${doneCount}/${totalCount} maîtrisés)`;
-    select.appendChild(option);
-  });
+    const subjects = [...new Set(validQuestions.map(q => q.subject))];
+
+    select.innerHTML = '<option value="">-- Choisissez une matière --</option>';
+
+    subjects.forEach(subject => {
+        const questionsInSub = validQuestions.filter(
+            q => q.subject === subject
+        );
+
+        const doneCount = questionsInSub.filter(
+            q => answeredIds.includes(q.id)
+        ).length;
+
+        const totalCount = questionsInSub.length;
+
+        const option = document.createElement("option");
+        option.value = subject;
+        option.textContent = `${subject} (${doneCount}/${totalCount} maîtrisés)`;
+
+        select.appendChild(option);
+    });
 }
 
-// --- LANCEMENT DU QUIZ ---
+// ==================== DÉMARRAGE QUIZ ====================
+
 document.getElementById("start-btn").addEventListener("click", () => {
-    const sub = document.getElementById("subject-select").value;
-    if (!sub) return;
+    const selectedSubject = document.getElementById("subject-select").value;
 
-    const answeredIds = getAnsweredIds();
-    // FILTRE CRUCIAL : On ne prend que ce qui n'est PAS encore réussi
-    let available = allQuestions.filter(q => q.subject === sub && !answeredIds.includes(q.id));
-
-    if (available.length === 0) {
-        alert("Matière terminée ! Réinitialise pour recommencer.");
+    if (!selectedSubject) {
+        alert("Choisis une matière");
         return;
     }
 
-    // Mélange aléatoire des questions disponibles
-    questions = available.sort(() => 0.5 - Math.random()).slice(0, 20);
-    
+    const answeredIds = getAnsweredIds();
+
+    let available = allQuestions.filter(q =>
+        q.subject === selectedSubject &&
+        !answeredIds.includes(q.id)
+    );
+
+    if (available.length === 0) {
+        alert("Toutes les questions de cette matière sont maîtrisées.");
+        return;
+    }
+
+    questions = available
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 20);
+
     currentQuestionIndex = 0;
     score = 0;
     mistakes = [];
     startTime = new Date();
-    
+
     document.getElementById("subject-selection").classList.add("hidden");
     document.getElementById("quiz-container").classList.remove("hidden");
+
     loadQuestion();
 });
 
+// ==================== CHARGER QUESTION ====================
+
 function loadQuestion() {
     const q = questions[currentQuestionIndex];
+
     document.getElementById("question").textContent = q.question;
+
     const form = document.getElementById("answers-form");
     form.innerHTML = "";
+
     document.getElementById("feedback").textContent = "";
 
-    // Image si présente
     const img = document.getElementById("question-image");
-    if (q.image) { img.src = q.image; img.classList.remove("hidden"); } 
-    else { img.classList.add("hidden"); }
 
-    // Mélange des options
-    currentShuffledOptions = q.options.map((opt, idx) => ({ opt, idx }));
-    currentShuffledOptions.sort(() => 0.5 - Math.random());
+    if (q.image) {
+        img.src = q.image;
+        img.classList.remove("hidden");
+    } else {
+        img.classList.add("hidden");
+    }
+
+    currentShuffledOptions = q.options.map((opt, idx) => ({
+        opt,
+        idx
+    }));
+
+    currentShuffledOptions.sort(() => Math.random() - 0.5);
 
     currentShuffledOptions.forEach(({ opt }, i) => {
         const label = document.createElement("label");
         label.className = "answer-option";
-        label.innerHTML = `<input type="checkbox" name="answer" value="${i}"> <span>${opt}</span>`;
+
+        label.innerHTML = `
+            <input type="checkbox" name="answer" value="${i}">
+            <span>${opt}</span>
+        `;
+
         form.appendChild(label);
     });
 }
 
-// --- VALIDATION ---
-document.getElementById("submit-btn").addEventListener("click", () => {
-    const checked = Array.from(document.querySelectorAll('input[name="answer"]:checked'))
-                         .map(i => parseInt(i.value));
-    
-    if (checked.length === 0) return;
+// ==================== VALIDATION ====================
 
-    const userIndices = checked.map(i => currentShuffledOptions[i].idx);
+document.getElementById("submit-btn").addEventListener("click", () => {
+    const checked = Array.from(
+        document.querySelectorAll('input[name="answer"]:checked')
+    ).map(input => parseInt(input.value));
+
+    if (checked.length === 0) {
+        return;
+    }
+
     const q = questions[currentQuestionIndex];
-    const isCorrect = userIndices.length === q.correctAnswers.length &&
-                      userIndices.every(v => q.correctAnswers.includes(v));
+
+    const userIndices = checked.map(
+        i => currentShuffledOptions[i].idx
+    );
+
+    const isCorrect =
+        userIndices.length === q.correctAnswers.length &&
+        userIndices.every(i => q.correctAnswers.includes(i));
 
     const feedback = document.getElementById("feedback");
 
     if (isCorrect) {
         score++;
-        feedback.innerHTML = "<span style='color:green'>Correct !</span>";
-        // LA QUESTION EST RÉUSSIE : On l'enregistre pour ne plus la revoir
-        saveSuccess(q.id); 
+        saveSuccess(q.id);
+
+        feedback.innerHTML =
+            "<span style='color:green'>Correct !</span>";
     } else {
         mistakes.push({
             q: q.question,
             y: userIndices.map(i => q.options[i]).join(", "),
             c: q.correctAnswers.map(i => q.options[i]).join(", ")
         });
-        feedback.innerHTML = "<span style='color:red'>Faux. Elle reviendra plus tard !</span>";
-        // ON NE SAUVEGARDE PAS : Elle restera dans "available" au prochain lancement
+
+        feedback.innerHTML =
+            "<span style='color:red'>Faux. Elle reviendra plus tard.</span>";
     }
 
     currentQuestionIndex++;
+
     setTimeout(() => {
-        if (currentQuestionIndex < questions.length) loadQuestion();
-        else showResult();
-    }, 1000);
+        if (currentQuestionIndex < questions.length) {
+            loadQuestion();
+        } else {
+            showResult();
+        }
+    }, 900);
 });
+
+// ==================== RÉSULTATS ====================
 
 function showResult() {
     document.getElementById("quiz-container").classList.add("hidden");
     document.getElementById("result").classList.remove("hidden");
-    document.getElementById("score").textContent = `Session : ${score} / ${questions.length}`;
-    document.getElementById("recap").innerHTML = mistakes.length > 0 ? "<h3>Corrections :</h3>" : "<h3>Zéro faute !</h3>";
+
+    document.getElementById("score").textContent =
+        `Session : ${score} / ${questions.length}`;
+
+    const recap = document.getElementById("recap");
+
+    if (mistakes.length === 0) {
+        recap.innerHTML = "<h3>Zéro faute !</h3>";
+        return;
+    }
+
+    recap.innerHTML = "<h3>Corrections :</h3>";
+
     mistakes.forEach(m => {
-        document.getElementById("recap").innerHTML += `<div class='mistake'><p><strong>Q:</strong> ${m.q}</p><p style='color:red'>Toi : ${m.y}</p><p style='color:green'>Correct : ${m.c}</p></div><hr>`;
+        recap.innerHTML += `
+            <div class='mistake'>
+                <p><strong>Q:</strong> ${m.q}</p>
+                <p style='color:red'>Toi : ${m.y}</p>
+                <p style='color:green'>Correct : ${m.c}</p>
+            </div>
+            <hr>
+        `;
     });
 }
 
-document.getElementById("restart-btn").addEventListener("click", () => location.reload());
+// ==================== RESTART ====================
+
+document.getElementById("restart-btn").addEventListener("click", () => {
+    location.reload();
+});
