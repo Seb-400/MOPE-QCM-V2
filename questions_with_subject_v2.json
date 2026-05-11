@@ -10985,7 +10985,7 @@
     ],
     "image": ""
   },
-  {
+ {
     "subject": "IPE",
     "question": "Le format « En tant que [utilisateur], j’ai besoin de [fonction] pour [bénéfice] » correspond à :",
     "option": [
@@ -10994,7 +10994,7 @@
       "Segmentation du marché",
       "Analyse de la concurrence"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11006,7 +11006,7 @@
       "Proposition de valeur",
       "Point d’Attention à l’Entrepreneur"
     ],
-    "correctAnswers": 2,
+    "correctAnswers":[2],
     "image": ""
   },
   {
@@ -11018,7 +11018,7 @@
       "Chambre de commerce européenne",
       "Next Generation EU"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11030,7 +11030,7 @@
       "Impôt sur les sociétés",
       "Contribution économique territoriale"
     ],
-    "correctAnswers": 2,
+    "correctAnswers":[2],
     "image": ""
   },
   {
@@ -11042,7 +11042,7 @@
       "Segmentation du marché",
       "Étude concurrentielle"
     ],
-    "correctAnswers": 2,
+    "correctAnswers":[2],
     "image": ""
   },
   {
@@ -11054,7 +11054,7 @@
       "Responsabilité illimitée sur le patrimoine personnel",
       "Statut réservé aux professions libérales"
     ],
-    "correctAnswers": 2,
+    "correctAnswers":[2],
     "image": ""
   },
   {
@@ -11066,7 +11066,7 @@
       "Audit fiscal",
       "Benchmark financier"
     ],
-    "correctAnswers": 0,
+    "correctAnswers":[0],
     "image": ""
   },
   {
@@ -11078,7 +11078,7 @@
       "Technique des 5 pourquoi",
       "Brainstorming inversé"
     ],
-    "correctAnswers": 2,
+    "correctAnswers":[2],
     "image": ""
   },
   {
@@ -11090,7 +11090,7 @@
       "Next Generation EU",
       "Erasmus+"
     ],
-    "correctAnswers": 2,
+    "correctAnswers":[2],
     "image": ""
   },
   {
@@ -11102,7 +11102,7 @@
       "Tribunal de commerce",
       "INPI"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11114,7 +11114,7 @@
       "12 ODD et 2030 actions",
       "17 objectifs fiscaux européens"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11126,7 +11126,7 @@
       "Valider l’existence d’une demande réelle avant investissement massif",
       "Réaliser une étude de marché définitive"
     ],
-    "correctAnswers": 2,
+    "correctAnswers":[2],
     "image": ""
   },
   {
@@ -11138,7 +11138,7 @@
       "Administrative et réglementaire",
       "Basée uniquement sur l’analyse initiale"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11150,7 +11150,7 @@
       "Design Thinking",
       "Benchmarking"
     ],
-    "correctAnswers": 2,
+    "correctAnswers":[2],
     "image": ""
   },
   {
@@ -11162,7 +11162,7 @@
       "Au bénéfice net annuel attendu",
       "Au budget marketing initial"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11174,7 +11174,7 @@
       "Économique, sociale et environnementale",
       "Production, vente et export"
     ],
-    "correctAnswers": 2,
+    "correctAnswers":[2],
     "image": ""
   },
   {
@@ -11186,7 +11186,7 @@
       "Une demande de subvention européenne",
       "Une déclaration d’activité entrepreneuriale"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11198,7 +11198,7 @@
       "problème",
       "concurrent"
     ],
-    "correctAnswers": 2,
+    "correctAnswers":[2],
     "image": ""
   },
   {
@@ -11210,7 +11210,7 @@
       "Une méthode d’analyse financière",
       "Un audit qualité"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11222,7 +11222,7 @@
       "Car il constitue un critère de viabilité future et de durabilité",
       "Parce qu’il est obligatoire pour toute entreprise"
     ],
-    "correctAnswers": 2,
+    "correctAnswers":[2],
     "image": ""
   },
   {
@@ -11234,7 +11234,7 @@
       "Compétence numérique",
       "Agenda 2030"
     ],
-    "correctAnswers": 2,
+    "correctAnswers":[2],
     "image": ""
   },
   {
@@ -11246,7 +11246,7 @@
       "Créativité",
       "Agenda 2030"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11258,7 +11258,7 @@
       "Lean Startup",
       "Compétence numérique"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11270,7 +11270,7 @@
       "Créativité",
       "Compétence numérique"
     ],
-    "correctAnswers": 0,
+    "correctAnswers":[0],
     "image": ""
   },
   {
@@ -11282,7 +11282,7 @@
       "Créativité",
       "Agenda 2030"
     ],
-    "correctAnswers": 2,
+    "correctAnswers":[2],
     "image": ""
   },
   {
@@ -11294,7 +11294,7 @@
       "Écoute active",
       "Intelligence émotionnelle"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11306,7 +11306,7 @@
       "Empathie",
       "Leadership"
     ],
-    "correctAnswers": 0,
+    "correctAnswers":[0],
     "image": ""
   },
   {
@@ -11318,7 +11318,7 @@
       "Écoute active",
       "Empathie"
     ],
-    "correctAnswers": 2,
+    "correctAnswers":[2],
     "image": ""
   },
   {
@@ -11330,7 +11330,7 @@
       "Assertivité",
       "Communication non verbale"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11342,7 +11342,7 @@
       "Intelligence émotionnelle",
       "Écoute active"
     ],
-    "correctAnswers": 0,
+    "correctAnswers":[0],
     "image": ""
   },
   {
@@ -11354,7 +11354,7 @@
       "automatisée",
       "conventionnelle"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11366,7 +11366,7 @@
       "privées",
       "automatisées"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11378,7 +11378,7 @@
       "mobilité",
       "expérience"
     ],
-    "correctAnswers": 0,
+    "correctAnswers":[0],
     "image": ""
   },
   {
@@ -11390,7 +11390,7 @@
       "diplôme",
       "recruteur"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11402,7 +11402,7 @@
       "SEO",
       "ERP"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11414,7 +11414,7 @@
       "orientation",
       "insertion"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11426,7 +11426,7 @@
       "disponibilité",
       "qualification"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11438,7 +11438,7 @@
       "réputation",
       "spécialisation"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11450,7 +11450,7 @@
       "concours",
       "bilan"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
@@ -11462,7 +11462,7 @@
       "l’espace Schengen uniquement",
       "l’ONU"
     ],
-    "correctAnswers": 1,
+    "correctAnswers":[1],
     "image": ""
   },
   {
