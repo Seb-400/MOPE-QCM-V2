@@ -7151,6 +7151,330 @@
     "correctAnswers": [2],
     "image": ""
   },
+    {
+    "subject": "EMPA",
+    "question": "Sélectionnez les affirmations correctes concernant la notion de ventilation ou évent dans un embout auditif :",
+    "options": [
+      "Un conduit destiné à augmenter l’amplification de l’audioprothèse",
+      "Une ouverture supplémentaire reliant la cavité adjacente au tympan avec l’extérieur",
+      "Une ouverture supplémentaire reliant le conduit central de l’embout avec l’extérieur",
+      "Un filtre permettant de réguler la puissance de l’audioprothèse"
+    ],
+    "correctAnswers": [1, 2],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Quelles ventilations ou évents ont un impact sur les basses fréquences ?",
+    "options": [
+      "Celles de 0,5–1 mm",
+      "Celles de 2 mm",
+      "Celles de 3 mm ou plus",
+      "Uniquement les ventilations externes"
+    ],
+    "correctAnswers": [1, 2],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Quelles pathologies nécessitent de reporter la prise d’empreinte jusqu’à leur résolution ?",
+    "options": [
+      "Les otites externes",
+      "Le bouchon de cérumen",
+      "Le conduit auditif externe surdimensionné",
+      "Les aérateurs transtympaniques"
+    ],
+    "correctAnswers": [0, 1],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Quelles pathologies empêchent complètement la prise d’empreinte ?",
+    "options": [
+      "L’atrésie du conduit auditif externe",
+      "L’otite suppurative chronique",
+      "L’Herpès Zoster",
+      "Les oreilles récemment opérées"
+    ],
+    "correctAnswers": [0, 1],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Quelles sont les conséquences de l’utilisation d’un embout qui occlut le conduit auditif externe ?",
+    "options": [
+      "La résonance naturelle de l’oreille est totalement préservée",
+      "L’amplification naturelle entre 2 000 et 4 000 Hz est partiellement ou totalement perdue",
+      "Le niveau du signal acoustique atteignant le tympan diminue dans les hautes fréquences",
+      "L’amplification naturelle du conduit auditif externe augmente"
+    ],
+    "correctAnswers": [1, 2],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Quels effets produit l’augmentation progressive du diamètre interne de la perforation de l’embout ?",
+    "options": [
+      "Elle augmente les hautes fréquences au-delà de 2 000 Hz",
+      "Elle atténue les hautes fréquences",
+      "Elle peut apporter entre 10 et 12 dB autour de 6 000 Hz",
+      "Elle réduit l’intelligibilité de la parole"
+    ],
+    "correctAnswers": [0, 2],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Concernant le fraisage de l’empreinte, sélectionnez les affirmations correctes :",
+    "options": [
+      "Le fraisage consiste uniquement à raccourcir le conduit pour l’adapter à la longueur souhaitée, sans élimination des arêtes ni arrondissage des formes",
+      "Pour la fabrication des embouts, il est recommandé de ne pas modifier ou supprimer de parties de l’empreinte, et de réserver ce travail au moule brut obtenu à partir de la dite empreinte",
+      "Parmi les zones pouvant être fraisés dans les empreintes destinées aux embouts classiques, on trouve l’extrémité du conduit, afin d’adoucir les arêtes créées lors de la découpe",
+      "Le fraisage des empreintes pour embouts sur mesure vise à obtenir une forme et une taille correspondant parfaitement à celles de la prothèse intra souhaitée à fabriquer"
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Lors de la préparation de l’empreinte. Sélectionnez les affirmations correctes concernant la découpe d’une empreinte :",
+    "options": [
+      "La première découpe doit toujours être réalisée sur la partie supérieure de la conque, car c’est là que se trouvent les irrégularités qui compliquent le façonnage",
+      "La première découpe est celle de la base de l’empreinte",
+      "La découpe doit être effectuée fermement et de manière continue, en évitant les mouvements de sciage susceptibles de créer des arêtes ou des irrégularités",
+      "La découpe de l’empreinte est une étape réalisée uniquement pour la fabrication des coques pour les intra et n’est pas prévue lors de la fabrication des embouts classiques"
+    ],
+    "correctAnswers": [1, 2],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "La vulcanisation nécessite :",
+    "options": [
+      "Pression et chaleur",
+      "Pression et froid",
+      "Lumière ultraviolette",
+      "Gel transparent"
+    ],
+    "correctAnswers": [0],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Pour les techniques de luminotechnique (photopolymérisation), un contre-moule est requis :",
+    "options": [
+      "Opaque",
+      "Flexible",
+      "De haute dureté",
+      "Transparent"
+    ],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Le gel de duplication est particulièrement adapté pour :",
+    "options": [
+      "Les processus à haute température",
+      "La vulcanisation à chaud",
+      "Les mélanges avec du plâtre",
+      "La luminotechnique"
+    ],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Pourquoi les embouts durs ne sont-ils pas recommandés pour les enfants ?",
+    "options": [
+      "Ils sont difficiles à nettoyer",
+      "Ils peuvent causer des lésions dans le CAE",
+      "Ils produisent une mauvaise ventilation",
+      "Ils se cassent facilement"
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Quelle caractéristique rend le silicone de duplication transparent particulièrement utile en tant que contrôle de matériau ?",
+    "options": [
+      "Sa dureté élevée",
+      "Sa réutilisation",
+      "Sa transparence",
+      "Son faible coût"
+    ],
+    "correctAnswers": [2],
+    "image": ""
+  },
+   {
+    "subject": "EMPA",
+    "question": "Pourquoi le gel n'est-il pas adapté aux techniques à chaud ?",
+    "options": [
+      "Il durcit excessivement",
+      "Il devient cassant",
+      "Il perd sa transparence",
+      "Il se liquéfie lorsque la température augmente"
+    ],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Quel est l'effet d'une augmentation du rapport eau/plâtre ?",
+    "options": [
+      "Diminue le temps de prise",
+      "Augmente la résistance mécanique",
+      "Diminue la résistance à la compression",
+      "Élimine l'expansion"
+    ],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "L'appareil mélangeur de silicone garantit principalement :",
+    "options": [
+      "Une plus grande dureté finale",
+      "Une plus grande rapidité de prise",
+      "La réutilisation du matériel",
+      "Un mélange précis et hygiénique"
+    ],
+    "correctAnswers": [3],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Le contre-moule appelé contrôle de matériau est principalement utilisé pour :",
+    "options": [
+      "Vulcaniser le silicone à chaud",
+      "Réaliser des usinages préalables",
+      "Évaluer le couplage et le joint acoustique de l'embout",
+      "Augmenter la durabilité de l'embout final"
+    ],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Le second bain de glycérine pour les embouts durs sert à :",
+    "options": [
+      "Refroidir l’acrylique",
+      "Apporter de la brillance",
+      "Compléter la polymérisation",
+      "Durcir le gel"
+    ],
+    "correctAnswers": [2],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "À propos du troisième et dernière phase de durcissement : une fois la coque sortie du contre-moule, comment doit-on réaliser ce cycle d'éclairage ?",
+    "options": [
+      "En appliquant directement la lumière UV sur l'air afin que le matériau respire.",
+      "En isolant le matériau de l'air, en utilisant le système à gaz ou en plaçant la coque dans un bain de glycérine.",
+      "Avec le matériau isolé de l'air, introduire le boîtier dans un bain d'alcool isopropylique.",
+      "Appliquer une couche de laque brillante avant de la mettre dans la machine à lumière."
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Quel matériau est couramment utilisé pour créer le canal d'aération à l'intérieur du boîtier avant de le remplir avec de l'acrylique ?",
+    "options": [
+      "Un tube creux en silicone d'un diamètre spécifique (de 0,6 mm à 2 mm).",
+      "Un câble en cuivre recouvert d’une couche de plastique, dont le diamètre est adapté aux caractéristiques finales exigées par le centre d'audioprothèse.",
+      "Un guide de cire qui est ensuite fondu.",
+      "La ventilation est effectuée à l'aide d'une perceuse à la fin du processus d'assemblage."
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Quel est le principal composant d'un appareil auditif ?",
+    "options": [
+      "L'amplificateur / processeur",
+      "Le microphone",
+      "L’écouteur",
+      "L’évent"
+    ],
+    "correctAnswers": [0],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Lorsque des composants électroacoustiques sont assemblés dans la technique de montage des appareils intra, quelle est l'état physique obligatoire qu'ils doivent maintenir ?",
+    "options": [
+      "Ils doivent être solidement ancrés à la plaque frontale pour éviter le déplacement dû aux vibrations mécaniques.",
+      "Ils doivent être suspendus à l’intérieur de la coque sans contact direct l'un avec l'autre, afin d'éviter l'effet de rétroaction acoustique.",
+      "Ils doivent être regroupés dans un bloc compact pour maximiser l'espace alloué au canal d'évacuation.",
+      "Ils doivent être recouverts de ruban adhésif pour éviter que les copeaux de poussière ne les gênent."
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "La technique de finition pour les capuchons protecteurs en matériaux souples consiste en un vernis qui est réalisé :",
+    "options": [
+      "Par immersion, avec une laque élastique spéciale à base de silicone, qui sèche dans l'air pendant 10 à 15 minutes.",
+      "Utiliser un pinceau, avec une laque qui photopolymérise avec la lumière UV.",
+      "Par immersion, avec une laque élastique spéciale à base de silicone, qui sèche dans un photopolymérisateur pendant 10 à 15 minutes.",
+      "À l'aide d'un pinceau, nous allons tremper le vernis et appliquer le vernis de façon continue et douce, en faisant de longs passages, sur toute la surface du boîtier."
+    ],
+    "correctAnswers": [0],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Quel type de substance est défini comme : substances et préparations qui, en contact avec d'autres, en particulier les substances inflammables, provoquent une réaction fortement exothermique ?",
+    "options": [
+      "Inflammable",
+      "Agents oxydants/comburants",
+      "Corrosives",
+      "Nuisible"
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Lors du processus de numérisation de l'empreinte 3D, la première étape à effectuer est :",
+    "options": [
+      "Le placement de l'otobloc",
+      "Réglage et calibrage de l'indicateur de profondeur",
+      "Mode anneau de canaux de balayage",
+      "Mode balayage de l'anneau de coquille"
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "En lien avec la technologie d’impression 3D par stéréolithographie (SLA), laquelle des affirmations suivantes décrit correctement son fonctionnement ou ses caractéristiques ?",
+    "options": [
+      "Il utilise une source lumineuse projetée pour polymériser toutes les couches simultanément",
+      "Il utilise des résines photosensibles et un laser ultraviolet pour solidifier successivement les couches de matériaux.",
+      "Plus rapide que DLP",
+      "Toutes les affirmations sont correctes."
+    ],
+    "correctAnswers": [1],
+    "image": ""
+  },
+  {
+    "subject": "EMPA",
+    "question": "Que se passe-t-il avec le moule négatif (cast) une fois que le matériau souple a durci ?",
+    "options": [
+      "Réutilisé pour d'autres moules",
+      "Il se polit et et on obtiendra l'embout brut",
+      "Le cast ou embout négatif sera cassé et on obtiendra l'embout brut",
+      "Fond pour obtenir de la moisissure positive"
+    ],
+    "correctAnswers": [2],
+    "image": ""
+  },
   {
     "subject": "EMPA",
     "question": "Les fréquences sur lesquelles la ventilation d'un embout a une incidence sont:",
