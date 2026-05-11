@@ -10,10 +10,9 @@ let score = 0;
 let mistakes = [];
 let startTime = null;
 let currentShuffledOptions = [];
-let isAnswerLocked = false;
 
 // nouvelle clé pour éviter de réutiliser l'ancien cache corrompu
-const STORAGE_KEY = "mope_quiz_progress_v5";
+const STORAGE_KEY = "mope_quiz_progress_v6";
 
 // ==================== STOCKAGE ====================
 
@@ -50,21 +49,36 @@ fetch('./questions_with_subject_v2.json')
         return response.json();
     })
     .then(data => {
-        allQuestions = data.map((q, index) => {
-            // ID UNIQUE PAR MATIÈRE + QUESTION
-
-            const uniqueId = btoa(
-                unescape(
-                    encodeURIComponent(
-                        `${q.subject}::${index}::${q.question}::${q.options.join("|")}::${q.correctAnswers.join(",")}`
+        allQuestions = data
+            // on élimine les lignes invalides du JSON
+            .filter(q =>
+                q &&
+                typeof q.subject === "string" &&
+                q.subject.trim() !== "" &&
+                typeof q.question === "string" &&
+                q.question.trim() !== "" &&
+                Array.isArray(q.options) &&
+                q.options.length > 0 &&
+                Array.isArray(q.correctAnswers) &&
+                q.correctAnswers.length > 0
+            )
+            .map((q, index) => {
+                // ID forcé, stable, unique, sans utiliser q.id
+                const uniqueId = btoa(
+                    unescape(
+                        encodeURIComponent(
+                            `${q.subject.trim()}::${index}::${q.question.trim()}::${q.options.join("|")}::${q.correctAnswers.join(",")}`
+                        )
                     )
-                )
-            );
-            return {
-                ...q,
-                id: uniqueId
-            };
-        });
+                );
+
+                return {
+                    ...q,
+                    subject: q.subject.trim(),
+                    question: q.question.trim(),
+                    id: uniqueId
+                };
+            });
 
         populateSubjects();
         console.log("Questions chargées :", allQuestions.length);
@@ -147,9 +161,7 @@ document.getElementById("start-btn").addEventListener("click", () => {
 // ==================== CHARGER QUESTION ====================
 
 function loadQuestion() {
-    isAnswerLocked = false;
-    const submitBtn = document.getElementById("submit-btn");
-    if (submitBtn) submitBtn.disabled = false;
+    document.getElementById("submit-btn").disabled = false;
 
     const q = questions[currentQuestionIndex];
 
@@ -192,7 +204,8 @@ function loadQuestion() {
 // ==================== VALIDATION ====================
 
 document.getElementById("submit-btn").addEventListener("click", () => {
-    if (isAnswerLocked) return;
+    const submitBtn = document.getElementById("submit-btn");
+    if (submitBtn.disabled) return;
 
     const checked = Array.from(
         document.querySelectorAll('input[name="answer"]:checked')
@@ -202,8 +215,7 @@ document.getElementById("submit-btn").addEventListener("click", () => {
         return;
     }
 
-    isAnswerLocked = true;
-    document.getElementById("submit-btn").disabled = true;
+    submitBtn.disabled = true;
 
     const q = questions[currentQuestionIndex];
 
