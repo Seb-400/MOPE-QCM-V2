@@ -5747,273 +5747,273 @@
    {
     "subject": "CAPA",
     "question": "Un patient adulte présente une otite externe sévère dans l'oreille droite, avec suppuration importante. Sa perte auditive est légère dans cet oreille, avec des fréquences graves bien conservées. Quel type d'appareillage serait le plus adapté ?",
-    "option": ["BTE avec tulipa", "BTE à tube fin avec Open Fit", "RIC avec Open Fit", "ITC"],
+    "options": ["BTE avec tulipa", "BTE à tube fin avec Open Fit", "RIC avec Open Fit", "ITC"],
     "correctAnswers": 1,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Le temps d'attaque (TA) est :",
-    "option": ["Le temps que met la pile à s'activer", "Le temps pour charger un appareil rechargeable", "Le temps pour réagir à une baisse du niveau d'entrée", "Le temps pour réagir à une augmentation soudaine du niveau d'entrée"],
+    "options": ["Le temps que met la pile à s'activer", "Le temps pour charger un appareil rechargeable", "Le temps pour réagir à une baisse du niveau d'entrée", "Le temps pour réagir à une augmentation soudaine du niveau d'entrée"],
     "correctAnswers": 3,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Chez un patient présentant une perte auditive légère et bilatérale d'environ 30 dB, et dans le cas où une adaptation monaurale doit être envisagée, quelle oreille doit être équipée en priorité selon les critères d'adaptation ?",
-    "option": ["On adapte la droite si le patient est droitier, et l'oreille gauche si le patient est gaucher", "On adapte l'oreille la plus mauvaise", "S'il est impossible d'adapter l'une des deux oreilles pour des raisons médicales, alors aucune des deux ne pourra être adaptée", "On adapte l'oreille la plus saine"],
+    "options": ["On adapte la droite si le patient est droitier, et l'oreille gauche si le patient est gaucher", "On adapte l'oreille la plus mauvaise", "S'il est impossible d'adapter l'une des deux oreilles pour des raisons médicales, alors aucune des deux ne pourra être adaptée", "On adapte l'oreille la plus saine"],
     "correctAnswers": 1,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Dans une amplification linéaire :",
-    "option": ["Le gain est constant", "Les sons faibles sont moins amplifiés que les sons forts", "Le seuil d'inconfort n'est jamais respecté", "Le gain varie selon le niveau d'entrée"],
+    "options": ["Le gain est constant", "Les sons faibles sont moins amplifiés que les sons forts", "Le seuil d'inconfort n'est jamais respecté", "Le gain varie selon le niveau d'entrée"],
     "correctAnswers": 0,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Un enfant de 10 ans présente une perte auditive légère, avec des graves bien conservés et une bonne discrimination. Son conduit auditif est sain. Quel type d'appareillage serait le plus adapté ?",
-    "option": ["BTE Super Power avec Open Fit", "CIC", "RIC avec Open Fit", "BTE avec un dôme fermé"],
+    "options": ["BTE Super Power avec Open Fit", "CIC", "RIC avec Open Fit", "BTE avec un dôme fermé"],
     "correctAnswers": 2,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Un patient âgé, présentant une perte auditive profonde (95-100 dB) sur les graves et moyennes fréquences, et ayant une mauvaise motricité fine, doit être appareillé. Quel choix feriez-vous ?",
-    "option": ["BTE avec un moule sur mesure fermé", "CIC", "Un RIC avec Open Fit", "BTE tube fin avec Open Fit"],
+    "options": ["BTE avec un moule sur mesure fermé", "CIC", "Un RIC avec Open Fit", "BTE tube fin avec Open Fit"],
     "correctAnswers": 0,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Dans une amplification non linéaire, le point d'inflexion correspond à :",
-    "option": ["Le niveau où la compression commence à agir", "Le début du fonctionnement du peak clipping", "La limite de la plage dynamique", "La saturation totale de l'appareil"],
+    "options": ["Le niveau où la compression commence à agir", "Le début du fonctionnement du peak clipping", "La limite de la plage dynamique", "La saturation totale de l'appareil"],
     "correctAnswers": 0,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Dans une mesure HIT (Hearing Instrument Test), où doivent être placés les microphones ?",
-    "option": ["Le microphone de référence doit être éloigné et le microphone de mesure avec l'écouteur", "Le microphone de référence doit être positionné devant le microphone de l'aide, tandis que le microphone de mesure doit être placé en face de l'écouteur", "Un microphone doit être placé juste devant l'autre, alignés"],
+    "options": ["Le microphone de référence doit être éloigné et le microphone de mesure avec l'écouteur", "Le microphone de référence doit être positionné devant le microphone de l'aide, tandis que le microphone de mesure doit être placé en face de l'écouteur", "Un microphone doit être placé juste devant l'autre, alignés"],
     "correctAnswers": 1,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Pour retirer un BTE avec moulage, il faut :",
-    "option": ["Tirer sur l'aide auditive derrière l'oreille", "Dérouter le moulage sans tirer sur le tube", "Toutes les réponses sont correctes", "Tirer sur le tube"],
+    "options": ["Tirer sur l'aide auditive derrière l'oreille", "Dérouter le moulage sans tirer sur le tube", "Toutes les réponses sont correctes", "Tirer sur le tube"],
     "correctAnswers": 1,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "La stimulation controlatérale est principalement utilisée en cas de :",
-    "option": ["Surdité bilatérale symétrique", "Presbyacousie", "Cophose unilatérale", "Perte conductrice légère"],
+    "options": ["Surdité bilatérale symétrique", "Presbyacousie", "Cophose unilatérale", "Perte conductrice légère"],
     "correctAnswers": 2,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Pour réduire un son aigu fort gênant, on peut :",
-    "option": ["Réduire le gain aigu pour les sons forts", "Diminuer le ratio de compression dans les bandes aiguës", "Augmenter le gain des fréquences graves", "Augmenter la sortie maximale"],
+    "options": ["Réduire le gain aigu pour les sons forts", "Diminuer le ratio de compression dans les bandes aiguës", "Augmenter le gain des fréquences graves", "Augmenter la sortie maximale"],
     "correctAnswers": 0,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Si l'aide auditive siffle lors du test anti-feedback, il faut d'abord :",
-    "option": ["Vérifier la bonne mise en place du moule", "Désactiver la compression", "Changer immédiatement l'appareil", "Augmenter le gain"],
+    "options": ["Vérifier la bonne mise en place du moule", "Désactiver la compression", "Changer immédiatement l'appareil", "Augmenter le gain"],
     "correctAnswers": 0,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Quelle est la base indispensable de toute programmation d'une aide auditive ?",
-    "option": ["Le type d'aide auditive choisi", "Le logiciel du fabricant", "L'audiométrie complète du patient", "Toutes les réponses sont correctes"],
+    "options": ["Le type d'aide auditive choisi", "Le logiciel du fabricant", "L'audiométrie complète du patient", "Toutes les réponses sont correctes"],
     "correctAnswers": 2,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Avant toute modification de programmation face à une plainte, il faut d'abord :",
-    "option": ["Réduire la compression", "Vérifier les éléments non électroniques", "Changer le programme actif", "Augmenter le gain global"],
+    "options": ["Réduire la compression", "Vérifier les éléments non électroniques", "Changer le programme actif", "Augmenter le gain global"],
     "correctAnswers": 1,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Le positionnement du téléphone avec un BTE doit être :",
-    "option": ["Toutes les réponses sont correctes", "Identique à un intra-auriculaire", "Orienté vers le microphone sur le conduit auditif", "Orienté vers le microphone situé au-dessus du pavillon"],
+    "options": ["Toutes les réponses sont correctes", "Identique à un intra-auriculaire", "Orienté vers le microphone sur le conduit auditif", "Orienté vers le microphone situé au-dessus du pavillon"],
     "correctAnswers": 3,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Un système transcutané passif se caractérise par :",
-    "option": ["Une vibration produite par le processeur externe", "Une stimulation mécanique indirecte du nerf auditif par vibration osseuse", "Une transmission du son par voie osseuse directement vers la cochlée", "Une transmission du son par voie osseuse vers la chaine ossiculaire"],
+    "options": ["Une vibration produite par le processeur externe", "Une stimulation mécanique indirecte du nerf auditif par vibration osseuse", "Une transmission du son par voie osseuse directement vers la cochlée", "Une transmission du son par voie osseuse vers la chaine ossiculaire"],
     "correctAnswers": 0,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Un ratio de compression élevé (ex. 4:1) entraîne généralement :",
-    "option": ["Plus de confort et plus de discrimination", "Plus de confort et moins de discrimination", "Moins de confort et moins de discrimination", "Plus de discrimination et moins de confort"],
+    "options": ["Plus de confort et plus de discrimination", "Plus de confort et moins de discrimination", "Moins de confort et moins de discrimination", "Plus de discrimination et moins de confort"],
     "correctAnswers": 1,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Si le patient dit \"je n'entends pas clair, net, propre\", il faut prioritairement :",
-    "option": ["Augmenter la ventilation", "Augmenter les fréquences moyennes et aiguës", "Augmenter les graves", "Réduire le MPO"],
+    "options": ["Augmenter la ventilation", "Augmenter les fréquences moyennes et aiguës", "Augmenter les graves", "Réduire le MPO"],
     "correctAnswers": 1,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Une plainte de type sons métalliques est le plus souvent causée par :",
-    "option": ["Une ventilation excessive", "Un manque de compression générale", "Un gain excessif dans les aigus", "Un gain excessif dans les graves"],
+    "options": ["Une ventilation excessive", "Un manque de compression générale", "Un gain excessif dans les aigus", "Un gain excessif dans les graves"],
     "correctAnswers": 2,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Le MPO correspond :",
-    "option": ["À la pression de sortie maximale réglée dans le logiciel", "À la limite technique maximale de l'appareil", "Au gain appliqué aux sons doux", "À la pression acoustique du tympan"],
+    "options": ["À la pression de sortie maximale réglée dans le logiciel", "À la limite technique maximale de l'appareil", "Au gain appliqué aux sons doux", "À la pression acoustique du tympan"],
     "correctAnswers": 0,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "La perception amplifiée de sa propre voix au début est :",
-    "option": ["Rare et liée uniquement aux pertes sévères", "Un effet du contrôle du volume", "Fréquente et généralement transitoire", "Anormale et signe d'une mauvaise programmation"],
+    "options": ["Rare et liée uniquement aux pertes sévères", "Un effet du contrôle du volume", "Fréquente et généralement transitoire", "Anormale et signe d'une mauvaise programmation"],
     "correctAnswers": 2,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Quelle relation concernant l'OSPL90 est correcte ?",
-    "option": ["OSPL90 = capacité maximale technique de l'aide auditive", "OSPL90 = perception du patient", "Toutes les réponses sont correctes", "OSPL90 = réglage de programmation"],
+    "options": ["OSPL90 = capacité maximale technique de l'aide auditive", "OSPL90 = perception du patient", "Toutes les réponses sont correctes", "OSPL90 = réglage de programmation"],
     "correctAnswers": 0,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Une plainte \"j'entends plus de loin que de près\" indique souvent :",
-    "option": ["Un gain insuffisant pour les sons moyens", "Un MPO trop élevé", "Une ventilation insuffisante", "Un excès de gain pour les sons doux"],
+    "options": ["Un gain insuffisant pour les sons moyens", "Un MPO trop élevé", "Une ventilation insuffisante", "Un excès de gain pour les sons doux"],
     "correctAnswers": 3,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Quel est l'objectif principal des mesures REM (Real Ear Measurements) ?",
-    "option": ["Évaluer la compréhension de la parole dans le bruit", "Vérifier objectivement l'amplification de l'aide auditive dans l'oreille réelle du patient", "Mesurer la perte auditive du patient en cabine insonorisée", "Déterminer le seuil de douleur auditive du patient"],
+    "options": ["Évaluer la compréhension de la parole dans le bruit", "Vérifier objectivement l'amplification de l'aide auditive dans l'oreille réelle du patient", "Mesurer la perte auditive du patient en cabine insonorisée", "Déterminer le seuil de douleur auditive du patient"],
     "correctAnswers": 1,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Un patient présente une perte neurosensorielle profonde bilatérale d'origine rétrocochléaire avec atteinte du nerf auditif (VIII). Quel type d'implant est indiqué ?",
-    "option": ["Implant à conduction osseuse", "Implant d'oreille moyenne", "Implant cochléaire", "Implant de tronc cérébral"],
+    "options": ["Implant à conduction osseuse", "Implant d'oreille moyenne", "Implant cochléaire", "Implant de tronc cérébral"],
     "correctAnswers": 3,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Dans les mesures REM, la résonance naturelle maximale du conduit auditif externe chez l'adulte se situe généralement à :",
-    "option": ["4500 Hz avec une amplification de 5 dB", "6000 Hz avec une amplification de 30 dB", "2700 Hz avec une amplification de 20 dB", "1000 Hz avec une amplification de 10 dB"],
+    "options": ["4500 Hz avec une amplification de 5 dB", "6000 Hz avec une amplification de 30 dB", "2700 Hz avec une amplification de 20 dB", "1000 Hz avec une amplification de 10 dB"],
     "correctAnswers": 2,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Concernant le principe du lieu dans le fonctionnement de l'implant cochléaire, quelle affirmation est correcte ?",
-    "option": ["Détermine la fréquence du son selon la zone stimulée dans la cochlée", "Permet d'identifier l'intensité du son en fonction du nombre d'électrodes activées", "Reproduit la durée du son grâce à la modulation temporelle", "Détermine le rythme du son à partir de la fréquence des impulsions électriques"],
+    "options": ["Détermine la fréquence du son selon la zone stimulée dans la cochlée", "Permet d'identifier l'intensité du son en fonction du nombre d'électrodes activées", "Reproduit la durée du son grâce à la modulation temporelle", "Détermine le rythme du son à partir de la fréquence des impulsions électriques"],
     "correctAnswers": 0,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Un inconvénient principal des questionnaires ouverts est :",
-    "option": ["Absence d'objectifs personnalisés", "Manque d'informations subjectives", "Difficulté de comparaison entre patients", "Temps d'application très long"],
+    "options": ["Absence d'objectifs personnalisés", "Manque d'informations subjectives", "Difficulté de comparaison entre patients", "Temps d'application très long"],
     "correctAnswers": 2,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Dans un système FM, l'émetteur et le récepteur doivent :",
-    "option": ["Être connectés par câble", "Être synchronisés sur le même canal", "Utiliser le même patterne", "Être à moins de 1 mètre"],
+    "options": ["Être connectés par câble", "Être synchronisés sur le même canal", "Utiliser le même patterne", "Être à moins de 1 mètre"],
     "correctAnswers": 1,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Quels sont les trois facteurs qui diminuent le rapport signal/bruit ?",
-    "option": ["La distance, la réverbération et le bruit de fond", "Le type d'embout, le dôme et le tube", "La pile, l'écouteur et le microphone", "Le gain, le MPO et la compression"],
+    "options": ["La distance, la réverbération et le bruit de fond", "Le type d'embout, le dôme et le tube", "La pile, l'écouteur et le microphone", "Le gain, le MPO et la compression"],
     "correctAnswers": 0,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Qu'est-ce que la cavité résiduelle ?",
-    "option": ["L'espace situé entre les osselets", "Le volume d'air restant entre le moule, dôme ou l'aide auditive et le tympan", "L'espace situé derrière le tympan", "L'espace entre l'oreille moyenne et la cochlée"],
+    "options": ["L'espace situé entre les osselets", "Le volume d'air restant entre le moule, dôme ou l'aide auditive et le tympan", "L'espace situé derrière le tympan", "L'espace entre l'oreille moyenne et la cochlée"],
     "correctAnswers": 1,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Pourquoi est-il obligatoire d'effectuer une otoscopie avant de réaliser une mesure REM ?",
-    "option": ["Pour vérifier l'absence de cérumen et l'anatomie du conduit", "Pour régler le volume de l'aide auditive", "Pour choisir la taille de la sonde", "Pour calibrer le haut-parleur"],
+    "options": ["Pour vérifier l'absence de cérumen et l'anatomie du conduit", "Pour régler le volume de l'aide auditive", "Pour choisir la taille de la sonde", "Pour calibrer le haut-parleur"],
     "correctAnswers": 0,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Quel est le principe fondamental de fonctionnement de l'implant cochléaire ?",
-    "option": ["Il stimule électriquement les fibres nerveuses résiduelles de la cochlée", "Il amplifie le son mécaniquement", "Il vibre sur l'os mastoïde", "Il régénère les cellules ciliées"],
+    "options": ["Il stimule électriquement les fibres nerveuses résiduelles de la cochlée", "Il amplifie le son mécaniquement", "Il vibre sur l'os mastoïde", "Il régénère les cellules ciliées"],
     "correctAnswers": 0,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Selon les experts, quel est l'âge idéal pour l'adaptation d'une prothèse auditive chez l'enfant ?",
-    "option": ["Dans les 6 premiers mois de vie", "À partir de 3 ans", "Entre 12 et 18 mois", "Après 6 ans"],
+    "options": ["Dans les 6 premiers mois de vie", "À partir de 3 ans", "Entre 12 et 18 mois", "Après 6 ans"],
     "correctAnswers": 0,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Le questionnaire GHABP est considéré comme :",
-    "option": ["Un questionnaire mixte", "Un questionnaire ouvert", "Un questionnaire fermé", "Un test objectif"],
+    "options": ["Un questionnaire mixte", "Un questionnaire ouvert", "Un questionnaire fermé", "Un test objectif"],
     "correctAnswers": 2,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Quel est le test idéal pour un enfant de 5 ans ?",
-    "option": ["Audiométrie comportementale avec renforcement visuel", "Audiométrie comportementale non conditionnée", "Test verbal avec mots phonétiquement équilibrés, adaptés à son âge", "Test de jouets sonores en champ libre"],
+    "options": ["Audiométrie comportementale avec renforcement visuel", "Audiométrie comportementale non conditionnée", "Test verbal avec mots phonétiquement équilibrés, adaptés à son âge", "Test de jouets sonores en champ libre"],
     "correctAnswers": 2,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Quelles parties de l'implant de tronc cérébral se trouvent à l'extérieur ?",
-    "option": ["Le récepteur et les électrodes", "Le microphone, le processeur et le récepteur", "Le microphone, le processeur et le transmetteur", "Le microphone et le récepteur"],
+    "options": ["Le récepteur et les électrodes", "Le microphone, le processeur et le récepteur", "Le microphone, le processeur et le transmetteur", "Le microphone et le récepteur"],
     "correctAnswers": 2,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Le moule adaptateur chez l'enfant doit être :",
-    "option": ["Rigide pour augmenter le gain", "Métallique pour plus de durabilité", "Souple pour assurer confort et sécurité", "Identique à celui de l'adulte"],
+    "options": ["Rigide pour augmenter le gain", "Métallique pour plus de durabilité", "Souple pour assurer confort et sécurité", "Identique à celui de l'adulte"],
     "correctAnswers": 2,
     "image": ""
   },
   {
     "subject": "CAPA",
     "question": "Pourquoi est-il nécessaire de mesurer la satisfaction des utilisateurs en audiologie ?",
-    "option": ["Pour remplacer les tests objectifs", "Pour éviter les réglages techniques", "Pour augmenter automatiquement le gain", "Parce que les sensations subjectives influencent l'acceptation de l'appareillage"],
+    "options": ["Pour remplacer les tests objectifs", "Pour éviter les réglages techniques", "Pour augmenter automatiquement le gain", "Parce que les sensations subjectives influencent l'acceptation de l'appareillage"],
     "correctAnswers": 3,
     "image": ""
   },
@@ -9348,7 +9348,7 @@
    {
     "subject": "IEMPA",
     "question": "Identifiez la structure située au centre du pavillon, servant de \"cuvette\" avant le conduit :",
-    "option": [
+    "options": [
       "La fosse scaphoïde",
       "La conque",
       "La cymba de la conque",
@@ -9360,7 +9360,7 @@
   {
     "subject": "IEMPA",
     "question": "Comment s'appelle la petite saillie cartilagineuse située en avant du méat acoustique ?",
-    "option": [
+    "options": [
       "L'antitragus",
       "Le tragus",
       "La racine de l'hélix",
@@ -9372,7 +9372,7 @@
   {
     "subject": "IEMPA",
     "question": "Quelle structure se divise en une branche supérieure et une branche inférieure ?",
-    "option": [
+    "options": [
       "L'hélix",
       "L'anti-hélix",
       "La fosse triangulaire",
@@ -9384,7 +9384,7 @@
   {
     "subject": "IEMPA",
     "question": "Où se situe le triangle lumineux de Politzer lors d'une otoscopie ?",
-    "option": [
+    "options": [
       "Dans le quadrant postérosupérieur",
       "Dans le quadrant antéro-inférieur",
       "Dans le quadrant antérosupérieur",
@@ -9396,7 +9396,7 @@
   {
     "subject": "IEMPA",
     "question": "Quelle zone participe à la fois à l'étanchéité et à l'esthétique de l'embout en étant située en avant de l'entrée du CAE ?",
-    "option": [
+    "options": [
       "L'hélix",
       "L'antitragus",
       "Le tragus",
@@ -9408,7 +9408,7 @@
   {
     "subject": "IEMPA",
     "question": "Quelles sont les caractéristiques des embouts thermoplastiques à base d'acrylique souple ?",
-    "option": [
+    "options": [
       "Ils sont rigides à température ambiante",
       "Ils s'assouplissent à la température du corps",
       "Ils sont très durables et ne perdent pas leurs caractéristiques",
@@ -9420,7 +9420,7 @@
   {
     "subject": "IEMPA",
     "question": "Quel est l'avantage principal des embouts durs en acrylique ?",
-    "option": [
+    "options": [
       "Ils offrent une étanchéité parfaite pour les pertes profondes",
       "Ils sont faciles à mettre en place et à nettoyer",
       "Ils permettent de fabriquer presque toutes sortes d'évents",
@@ -9432,7 +9432,7 @@
   {
     "subject": "IEMPA",
     "question": "Quels inconvénients présentent les embouts très souples ou en biopor ?",
-    "option": [
+    "options": [
       "La durabilité est inférieure à celle de l'acrylique",
       "Ils ont tendance à jaunir ou à se fissurer plus facilement",
       "Ils ne permettent pas la fabrication de toutes les formes",
@@ -9444,7 +9444,7 @@
   {
     "subject": "IEMPA",
     "question": "Quels sont les avantages des embouts en titane ?",
-    "option": [
+    "options": [
       "Grande légèreté et robustesse",
       "Excellente tolérance dermatologique",
       "Possibilité de retouches faciles après impression",
@@ -9456,7 +9456,7 @@
   {
     "subject": "IEMPA",
     "question": "Cas d'un homme de 72 ans (surdité neurosensorielle profonde) : quel embout choisir ?",
-    "option": [
+    "options": [
       "Embout canule en acrylique",
       "Embout conque en biopor pour le gain élevé",
       "Embout squelette en titane",
@@ -9468,7 +9468,7 @@
   {
     "subject": "IEMPA",
     "question": "Cas d'une patiente de 15 ans pratiquant le karaté : quel matériau privilégier ?",
-    "option": [
+    "options": [
       "Acrylique dur",
       "Biopor (souple) pour la sécurité lors des chocs",
       "Titane",
@@ -9480,7 +9480,7 @@
   {
     "subject": "IEMPA",
     "question": "Cas d'un patient atteint de Parkinson (surdité modérée) : quel est le facteur prioritaire ?",
-    "option": [
+    "options": [
       "L'esthétique pure",
       "La dextérité manuelle (choix d'un embout conque en acrylique)",
       "L'étanchéité acoustique maximale",
@@ -9492,7 +9492,7 @@
   {
     "subject": "IEMPA",
     "question": "Cas d'une patiente avec des eczémas chroniques dans le conduit : que doit faire l'audioprothésiste ?",
-    "option": [
+    "options": [
       "Utiliser du biopor",
       "Écarter le biopor et opter pour l'acrylique (facteur lié aux pathologies)",
       "Ne pas appareiller du tout",
@@ -9504,7 +9504,7 @@
   {
     "subject": "IEMPA",
     "question": "Laquelle de ces situations NE constitue PAS une contre-indication obligeant au report de l'empreinte ?",
-    "option": [
+    "options": [
       "Présence d'un corps étranger",
       "Présence d'exostoses",
       "Présence d'une otite",
@@ -9516,7 +9516,7 @@
   {
     "subject": "IEMPA",
     "question": "Quel est l'objectif principal de l'otoscopie avant toute procédure ?",
-    "option": [
+    "options": [
       "Nettoyer le conduit en profondeur",
       "Diagnostiquer des traitements médicaux",
       "Vérifier l'absence d'anomalies ou contre-indications du CAE et de la MT",
@@ -9528,7 +9528,7 @@
   {
     "subject": "IEMPA",
     "question": "Quelle doit être la longueur minimale d'une empreinte au-delà du deuxième coude ?",
-    "option": [
+    "options": [
       "1 mm",
       "2 mm",
       "3 mm",
@@ -9540,7 +9540,7 @@
   {
     "subject": "IEMPA",
     "question": "Quelles structures doivent être évaluées systématiquement avant la prise d'empreinte ?",
-    "option": [
+    "options": [
       "Uniquement le CAE",
       "Le pavillon, le CAE et la membrane tympanique (MT)",
       "La MT et le CAE seulement",
@@ -9552,7 +9552,7 @@
   {
     "subject": "IEMPA",
     "question": "En cas de suspicion d'otomycose, quelle mesure d'hygiène est essentielle ?",
-    "option": [
+    "options": [
       "Utiliser des gants et remplacer le spéculum entre les deux oreilles",
       "Continuer l'examen normalement",
       "Nettoyer avec du matériel non stérile",
@@ -9564,7 +9564,7 @@
   {
     "subject": "IEMPA",
     "question": "Quel type de ventilation est le plus adapté pour éliminer les contaminants à la source ?",
-    "option": [
+    "options": [
       "Ventilation générale",
       "Extraction localisée",
       "Ventilation naturelle",
@@ -9576,7 +9576,7 @@
   {
     "subject": "IEMPA",
     "question": "Quel élément utilise-t-on en cas de déversement accidentel de substances chimiques (acides/bases) ?",
-    "option": [
+    "options": [
       "Douche oculaire",
       "Extincteur",
       "Neutralisateur",
@@ -14086,7 +14086,7 @@
   {
     "subject": "PCH",
     "question": "Une barrière sémantique apparaît lorsque :",
-    "option": [
+    "options": [
       "Le récepteur ne comprend pas le sens du message",
       "L'émetteur perd le contact visuel avec le récepteur",
       "Le message est transmis avec trop de bruit ambiant",
@@ -14098,7 +14098,7 @@
   {
     "subject": "PCH",
     "question": "Quel élément est considéré comme l'axe central de l'identité sourde au sein de la communauté sourde?",
-    "option": [
+    "options": [
       "L'appartenance obligatoire à une association",
       "La scolarisation dans des centres spécifiques",
       "La langue des signes",
@@ -14110,7 +14110,7 @@
   {
     "subject": "PCH",
     "question": "La Langue Parlée Complétée (LPC) aide à la communication parce qu'elle :",
-    "option": [
+    "options": [
       "Apporte des informations visuelles sur les syllabes et les phonèmes",
       "Élimine la nécessité de lire sur les lèvres",
       "N'a pas besoin de s'appuyer sur la langue orale",
@@ -14122,7 +14122,7 @@
   {
     "subject": "PCH",
     "question": "La fonction principale d'un interprète en langue des signes est :",
-    "option": [
+    "options": [
       "Conseiller la personner sourde sur des décisions médicales",
       "Transmettre les messages entre langues de manière fidèle et neutre",
       "Transmettre à la personne sourde son point de vue sur le message oral",
@@ -14134,7 +14134,7 @@
   {
     "subject": "PCH",
     "question": "La communication bimodale se caractérise par :",
-    "option": [
+    "options": [
       "Être une langue naturelle avec sa propre grammaire",
       "Avoir la langue des signes comme langue de base",
       "L'usage simultané de la modalité orale-auditive et de la modalité visuo-gestuelle basées sur la langue orale",
@@ -14146,7 +14146,7 @@
   {
     "subject": "PCH",
     "question": "Un exemple typique de phase de déni serait :",
-    "option": [
+    "options": [
       "Chercher des écoles avec soutien spécialisé",
       "Chercher constamment de nouvelles évaluations médicales",
       "Acquérir des prothèses auditives",
@@ -14158,7 +14158,7 @@
   {
     "subject": "PCH",
     "question": "La langue des signes N'EST PAS :",
-    "option": [
+    "options": [
       "Une langue reconnue légalement en France",
       "Un système visuo-gestuel",
       "Une reproduction visuelle de la langue orale avec la même structure",
@@ -14170,7 +14170,7 @@
   {
     "subject": "PCH",
     "question": "La boucle magnétique fonctionne grâce à :",
-    "option": [
+    "options": [
       "Des ondes radio FM dirigées vers le microphone de la prothèse",
       "Des vibrations osseuses transmises directement au crâne",
       "Des ondes électromagnétiques captées par la bobine inductive (position T) du dispositif auditif",
@@ -14182,7 +14182,7 @@
   {
     "subject": "PCH",
     "question": "Le guide-interprète travaille principalement avec :",
-    "option": [
+    "options": [
       "Les personnes ayant une perte auditive sévère",
       "Les enfants ayant une hypoacousie sévère",
       "Les personnes âgées présentant une presbyacousie",
@@ -14194,7 +14194,7 @@
   {
     "subject": "PCH",
     "question": "Les systèmes CAA sont considérés comme des systèmes de communication lorsqu'ils :",
-    "option": [
+    "options": [
       "Permettent des actes communicatifs fonctionnels et spontanés",
       "Remplacent totalement toute forme de langue orale",
       "Incluent exclusivement des signes vocaux",
@@ -14206,7 +14206,7 @@
   {
     "subject": "PCH",
     "question": "Quelle est l'une des fonctions clés de l'audioprothésiste lorsqu'il intervient auprès d'un patient adolescent ?",
-    "option": [
+    "options": [
       "Assumer l'intervention psychologique thérapeutique professionnelle de l'adolescent",
       "Intervenir uniquement en cas de pannes techniques",
       "Se substituer au soutien familial",
@@ -14218,7 +14218,7 @@
   {
     "subject": "PCH",
     "question": "Quelle est la principale difficulté rencontrée par les parents entendants d'enfants sourds dans les premières étapes du développement communicatif ?",
-    "option": [
+    "options": [
       "L'incapacité à apprendre des stratégies visuelles",
       "L'absence d'un code de communication efficace partagé",
       "Le manque d'intérêt pour la communication avec l'enfant",
@@ -14230,7 +14230,7 @@
   {
     "subject": "PCH",
     "question": "Quel curriculum est utilisé avec l'élève présentant une déficience auditive dans un centre ordinaire d'intégration ?",
-    "option": [
+    "options": [
       "Un curriculum parallèle au curriculum ordinaire",
       "Un curriculum réduit centré sur la lecto-écriture",
       "Un curriculum spécifique pour les élèves sourds",
@@ -14242,7 +14242,7 @@
   {
     "subject": "PCH",
     "question": "Quelle variable est considérée comme clé dans le développement communicatif et linguistique de l'enfant sourd ?",
-    "option": [
+    "options": [
       "L'utilisation de technologies auditives",
       "L'accessibilité précoce à un système de communication efficace",
       "Le niveau académique des parents",
@@ -14254,7 +14254,7 @@
   {
     "subject": "PCH",
     "question": "Quelles sont les principales modalités d'enseignement dans la scolarisation des élèves sourds ?",
-    "option": [
+    "options": [
       "Monolingue oraliste et bilingüe",
       "Méthodologie visuelle et méthodologie auditive",
       "Langue des signes et langue orale",
@@ -14266,7 +14266,7 @@
   {
     "subject": "PCH",
     "question": "Qu'est-ce qui caractérise l'acquisition de la langue des signes chez les enfants sourds de parents sourds signants ?",
-    "option": [
+    "options": [
       "Elle se produit uniquement à partir de six ans",
       "L'acquisition n'est pas spontanée",
       "L'acquisition est spontanée",
@@ -14278,7 +14278,7 @@
   {
     "subject": "PCH",
     "question": "Quelles sont les principales modalités de communication présentes dans l'environnement familial des enfants sourds ?",
-    "option": [
+    "options": [
       "Langue des signes uniquement dans les familles sourdes",
       "Langue des signes langue orale et langue orale soutenue par des systèmes de communication augmentée",
       "Langue des signes ou langue orale",
@@ -14290,7 +14290,7 @@
   {
     "subject": "PCH",
     "question": "Pourquoi l'apprentissage de la langue orale chez les enfants sourds est-il considéré comme un processus différent de celui des enfants entendants ?",
-    "option": [
+    "options": [
       "Parce qu'il s'acquiert de manière automatique par exposition passive",
       "Parce qu'il nécessite un processus intentionnel organisé et prolongé",
       "Parce qu'il dépend uniquement du reste auditif",
@@ -14302,7 +14302,7 @@
   {
     "subject": "PCH",
     "question": "Quelle est la principale voie d'accès à l'apprentissage et à l'information académique chez les élèves présentant une perte auditive ?",
-    "option": [
+    "options": [
       "L'interaction sociale non médiatisée par le langage",
       "La communication orale",
       "La lecto-écriture",
@@ -14314,7 +14314,7 @@
   {
     "subject": "PCH",
     "question": "Quels facteurs acquièrent une importance particulière à l'adolescence et conditionnent la manière de vivre la prothèse auditive ?",
-    "option": [
+    "options": [
       "L'opinion des autres",
       "L'image personnelle",
       "Le sentiment d'appartenance à un groupe",
@@ -14326,7 +14326,7 @@
   {
     "subject": "PCH",
     "question": "Le rapport audioprothétique se définit comme :",
-    "option": [
+    "options": [
       "Registre de maintenance des appareils auditifs",
       "Demande d'aides économiques",
       "Rapport qui recueille l'évaluation audiologique et la proposition d'intervention de l'audioprothésiste",
@@ -14338,7 +14338,7 @@
   {
     "subject": "PCH",
     "question": "La communauté sourde se caractérise principalement par :",
-    "option": [
+    "options": [
       "Être composée de personnes qui utilisent des appareils auditifs ou des implants cochléaires",
       "Être composée uniquement de personnes ayant une perte auditive",
       "Se baser sur la réhabilitation auditive comme élément central",
@@ -14350,7 +14350,7 @@
   {
     "subject": "PCH",
     "question": "L'audioprothésiste doit faire particulièrement attention lors de la rédaction du rapport parce que :",
-    "option": [
+    "options": [
       "Il ne peut pas décider de la marque et du modèle de l'appareil auditif adapté au patient",
       "Il ne peut pas indiquer les changements réalisés dans les différentes adaptations d'un même patient",
       "Il ne peut pas réaliser un diagnostic médical",
@@ -14362,7 +14362,7 @@
   {
     "subject": "PCH",
     "question": "Qu'est-ce que la perte prélinguale ?",
-    "option": [
+    "options": [
       "La perte auditive qui apparaît après 50 ans",
       "La perte auditive qui apparaît avant l'acquisition du langage oral",
       "La perte auditive qui apparaît avant l'acquisition de l'écriture",
@@ -14374,7 +14374,7 @@
   {
     "subject": "PCH",
     "question": "Les professionnels spécialisés dans le développement de la communication et du langage oral sont :",
-    "option": [
+    "options": [
       "Les orthophonistes",
       "Les audioprothésistes",
       "Les pédiatres",
@@ -14386,7 +14386,7 @@
   {
     "subject": "PCH",
     "question": "Quelle est l'une des difficultés de communication fréquentes chez les adultes atteints de surdité post-locutive ?",
-    "option": [
+    "options": [
       "Difficulté à suivre des conversations en groupe",
       "Impossibilité de comprendre des mots écrits",
       "Incapacité totale de produire un langage oral",
@@ -14398,7 +14398,7 @@
   {
     "subject": "PCH",
     "question": "La presbyacousie se définit comme :",
-    "option": [
+    "options": [
       "Une perte auditive temporaire causée par l'exposition au bruit",
       "Une perte auditive produite par des infections de l'oreille moyenne",
       "Une perte auditive causée par des changements dégénératifs liés à l'âge",
@@ -14410,7 +14410,7 @@
   {
     "subject": "PCH",
     "question": "La CNSE (Confédération nationale des personnes sourdes) travaille principalement dans des domaines tels que :",
-    "option": [
+    "options": [
       "Production de prothèses auditives",
       "Exclusivement la recherche scientifique",
       "Accessibilité, langue des signes, éducation et culture sourde",
@@ -14422,7 +14422,7 @@
   {
     "subject": "PCH",
     "question": "Quelle est la personne professionnelle qui détermine si un patient a besoin d'une prothèse auditive ou d'un implant cochléaire ?",
-    "option": [
+    "options": [
       "Le travailleur social",
       "Le logopède",
       "L'audioprothésiste",
@@ -14434,7 +14434,7 @@
   {
     "subject": "PCH",
     "question": "Chez les personnes atteintes de presbyacousie, quel type de voix est généralement le plus difficile à comprendre ?",
-    "option": [
+    "options": [
       "Seulement les voix qui sont entendues à forte intensité",
       "Toutes les voix de la même manière, indépendamment de leur fréquence",
       "La voix des hommes, parce qu'elle a des fréquences plus graves",
