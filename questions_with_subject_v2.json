@@ -2695,7 +2695,7 @@
     "subject": "ACAPA",
     "question": "Analyser les niveaux de gain à chaque fréquence est une bonne méthode pour vérifier la programmation.",
     "options": ["Vrai", "Faux"],
-    "correctAnswers": [1],
+    "correctAnswers": [0],
     "image": ""
   },
   {
